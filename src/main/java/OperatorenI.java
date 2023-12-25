@@ -29,6 +29,27 @@ public class OperatorenI {
 
         ergebnis = zahl1 / zahl2; // 2
         System.out.println(ergebnis);
+
+        varZahl++; // 6
+        System.out.println(varZahl);
+
+        varZahl--; // 5
+        System.out.println(varZahl);
+
+        int lebenGegner = 100;
+        int geschossEnergie = 20;
+
+        lebenGegner = lebenGegner - geschossEnergie;
+        System.out.println(lebenGegner);
+
+        // Zuweisungsoperator
+
+        lebenGegner -= geschossEnergie;
+        System.out.println("Leben Gegner: " + lebenGegner);
+
+
+
+
     }
 
 }
