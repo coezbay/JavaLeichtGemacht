@@ -1,3 +1,4 @@
+import javax.sound.midi.SysexMessage;
 
 public class AufgabeII {
 
@@ -15,5 +16,12 @@ public class AufgabeII {
         * 3. Beide Ganzzahlen zu einem Gesamtbetrag verrechnen
         * 4. Gesamtbetrag ausgeben mit Hilfe von System.out.println("");
          */
+
+        int auto1 = 3500;
+        int auto2 = (int)2340.48;
+
+        int gesamtbetrag = auto1 + auto2;
+
+        System.out.println( "Gesamtbetrag " + gesamtbetrag + " €");
     }
 }
