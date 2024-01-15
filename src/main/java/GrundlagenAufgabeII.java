@@ -1,6 +1,4 @@
-import javax.sound.midi.SysexMessage;
-
-public class AufgabeII {
+public class GrundlagenAufgabeII {
 
     public static void main(String[] args) {
         //DingoDongo

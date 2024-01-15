@@ -1,5 +1,5 @@
 
-public class AufgabeI {
+public class GrundlagenAufgabeI {
 
     public static void main(String[] args) {
         // DingoDongo

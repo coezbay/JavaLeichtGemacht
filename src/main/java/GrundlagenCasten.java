@@ -1,5 +1,5 @@
 
-public class Casten {
+public class GrundlagenCasten {
 
     public static void main(String[] args) {
         //BingoBongo

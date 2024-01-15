@@ -1,5 +1,5 @@
 
-public class VerzweigungIfElse {
+public class KontrollstrukturenVerzweigungIfElse {
 
     public static void main(String[] args) {
         // Dingo Dongo

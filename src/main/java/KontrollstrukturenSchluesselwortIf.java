@@ -1,5 +1,5 @@
 
-public class SchluesselwortIf {
+public class KontrollstrukturenSchluesselwortIf {
 
     public static void main(String[] args) {
         // Dingo Dongo

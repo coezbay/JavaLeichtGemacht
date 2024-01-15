@@ -1,5 +1,5 @@
 
-public class OperatorenII {
+public class GrundlagenOperatorenII {
 
     public static void main(String[] args) {
         // DingoDongo

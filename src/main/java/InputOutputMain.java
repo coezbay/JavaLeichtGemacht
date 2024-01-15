@@ -1,5 +1,5 @@
 
-public class Main {
+public class InputOutputMain {
     public static void main(String[] args) {
         // DingoDongo
 
