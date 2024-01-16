@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class KontrollstrukturenQuiz {
+public class _03_KontrollstrukturenQuiz {
 
     public static void main(String[] args) {
         // Dingo Dongo

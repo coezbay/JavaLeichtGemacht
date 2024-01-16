@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class KontrollstrukturenUnterschiedForWhile {
+public class _03_KontrollstrukturenUnterschiedForWhile {
 
     public static void main(String[] args) {
         // Dingo Dongo
