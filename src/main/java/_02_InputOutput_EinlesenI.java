@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class _02_InputOutputEinlesenI {
+public class _02_InputOutput_EinlesenI {
 
     public static void main(String[] args) {
         // Dingo Dongo

@@ -1,4 +1,4 @@
-public class _01_GrundlagenAufgabeII {
+public class _01_Grundlagen_AufgabeII {
 
     public static void main(String[] args) {
         //DingoDongo

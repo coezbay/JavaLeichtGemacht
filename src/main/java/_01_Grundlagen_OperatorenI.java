@@ -1,5 +1,5 @@
 
-public class _01_GrundlagenOperatorenI {
+public class _01_Grundlagen_OperatorenI {
 
     public static void main(String[] args) {
     //DingDong

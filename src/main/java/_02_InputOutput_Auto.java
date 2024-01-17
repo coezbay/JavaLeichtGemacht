@@ -1,5 +1,5 @@
 
-public class _02_InputOutputAuto {
+public class _02_InputOutput_Auto {
 
     int reifen;
     double preis;

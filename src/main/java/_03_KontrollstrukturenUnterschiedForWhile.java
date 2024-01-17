@@ -11,12 +11,12 @@ public class _03_KontrollstrukturenUnterschiedForWhile {
         // while(Bedingung){
         //          }
 
-        // for (int i = 1; i <= 5; i++) {
+        // for(int i = 1; i <= 5; i++) {
         //      System.out.println("Astroid wurde erstellt Nr: " + i);
         // }
 
         Scanner scan = new Scanner(System.in);
-        System.out.println("Drücke 1 für Schwierigkeitsgrad leicht \n Drücke 2 für Schwierigkeitsgrad Mittel");
+        System.out.println("Drücke 1 für Schwierigkeitsgrad leicht \nDrücke 2 für Schwierigkeitsgrad Mittel");
 
 
         int userEingabe = scan.nextInt();

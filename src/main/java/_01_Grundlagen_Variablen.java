@@ -1,5 +1,5 @@
 
-public class _01_GrundlagenVariablen {
+public class _01_Grundlagen_Variablen {
 
     public static void main(String[] args) {
         // TODO Auto-generated method stub

@@ -1,4 +1,4 @@
-public class _03_KontrollstrukturenSchleifeFor {
+public class _03_Kontrollstrukturen_SchleifeFor {
 
     public static void main(String[] args) {
         // Dingo Dongo

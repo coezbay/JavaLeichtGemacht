@@ -1,4 +1,4 @@
-public class _03_KontrollstrukturenSchleifeWhile {
+public class _03_Kontrollstrukturen_SchleifeWhile {
 
     public static void main(String[] args) {
         // Dingo Dongo

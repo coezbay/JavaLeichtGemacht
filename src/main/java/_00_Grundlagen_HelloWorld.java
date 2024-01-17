@@ -1,4 +1,4 @@
-public class _00_GrundlagenHelloWorld {
+public class _00_Grundlagen_HelloWorld {
 
     public static void main(String[] args) {
 

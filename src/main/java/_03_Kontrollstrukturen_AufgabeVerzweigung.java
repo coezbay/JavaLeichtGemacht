@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class _03_KontrollstrukturenAufgabeVerzweigung {
+public class _03_Kontrollstrukturen_AufgabeVerzweigung {
 
     public static void main(String[] args) {
         // Dingo Dongo

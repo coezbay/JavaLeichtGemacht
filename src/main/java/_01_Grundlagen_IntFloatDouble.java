@@ -1,4 +1,4 @@
-public class _01_GrundlagenIntFloatDouble {
+public class _01_Grundlagen_IntFloatDouble {
 
     public static void main(String[] args) {
 

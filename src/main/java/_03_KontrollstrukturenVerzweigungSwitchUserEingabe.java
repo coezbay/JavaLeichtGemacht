@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class _03_VerzweigungSwitchUserEingabe {
+public class _03_KontrollstrukturenVerzweigungSwitchUserEingabe {
     public static void main(String[] args) {
         // Dingo Dongo
 

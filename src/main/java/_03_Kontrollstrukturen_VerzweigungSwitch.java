@@ -1,5 +1,5 @@
 
-public class _03_KontrollstrukturenVerzweigungSwitch {
+public class _03_Kontrollstrukturen_VerzweigungSwitch {
 
     public static void main(String[] args) {
         // Dingo Dongo
