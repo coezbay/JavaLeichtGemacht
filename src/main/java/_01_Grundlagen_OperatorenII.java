@@ -24,7 +24,7 @@ public class _01_Grundlagen_OperatorenII {
         boolean hit = false;
 
         int a = 3;
-        int b =  3;
+        int b = 3;
         boolean c; // 1. true 2. false
 
         c = a < b;
@@ -32,7 +32,7 @@ public class _01_Grundlagen_OperatorenII {
 
         if (lebenGegner == 0 || hit == true) {
             System.out.println("Gegner zerstört");
-        }else {
+        } else {
             System.out.println("Gegner hat noch: " + lebenGegner + " Punkte");
         }
     }

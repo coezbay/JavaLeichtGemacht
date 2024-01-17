@@ -13,13 +13,13 @@ public class _01_Grundlagen_Zeichenkette {
          * char
          */
         // <Datentyp> <Variablenamen> = <Wert> ;
- char varZeichen = '!';
+        char varZeichen = '!';
 
- String varZeichenkette = "Ich bin eine Zeichenkette";
+        String varZeichenkette = "Ich bin eine Zeichenkette";
 
- String name = "Christian";
- String alter = "25";
+        String name = "Christian";
+        String alter = "25";
 
- System.out.println("Dein Name ist " + name + " und Du bist " + alter + " Jahre alt.");
+        System.out.println("Dein Name ist " + name + " und Du bist " + alter + " Jahre alt.");
     }
 }

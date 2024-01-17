@@ -8,7 +8,5 @@ public class _02_InputOutputMain {
         bmw.reifen = 4;
 
         int zahl = 4;
-
-
     }
 }

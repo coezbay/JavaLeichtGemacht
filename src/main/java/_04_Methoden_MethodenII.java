@@ -29,7 +29,6 @@ public class _04_Methoden_MethodenII {
 //    }
 
 
-
     public static void erstelleGegner(String name, int lebenspunkte) {
         String gegnerName = name;
         int gegnerLeben = lebenspunkte;

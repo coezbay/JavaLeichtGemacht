@@ -2,7 +2,7 @@
 public class _01_Grundlagen_OperatorenI {
 
     public static void main(String[] args) {
-    //DingDong
+        //DingDong
 
         // Was sind Operatoren?
         /*
@@ -46,8 +46,6 @@ public class _01_Grundlagen_OperatorenI {
 
         lebenGegner -= geschossEnergie;
         System.out.println("Leben Gegner: " + lebenGegner);
-
-
 
 
     }

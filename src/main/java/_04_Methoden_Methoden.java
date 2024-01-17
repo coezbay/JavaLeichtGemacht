@@ -14,12 +14,12 @@ public class _04_Methoden_Methoden {
 
     }
 
-    public static void ausgabe(){
+    public static void ausgabe() {
         System.out.print("Ich bin eine Methode!");
     }
 
-    public static void summe(){
-        int a,b,summe;
+    public static void summe() {
+        int a, b, summe;
         a = 5;
         b = 5;
 

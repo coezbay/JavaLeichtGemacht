@@ -30,7 +30,7 @@ public class _03_KontrollstrukturenUnterschiedForWhile {
 
         while (anzahlGegner != 0) {
             System.out.println("Gegner erstellt!");
-            anzahlGegner --;
+            anzahlGegner--;
         }
 
     }
