@@ -13,4 +13,10 @@ public class _07_OOPII_Vererbung_Vererbung_Hund extends _07_OOPII_Vererbung_Tier
     public void bellen() {
 
     }
+
+    @Override
+    public void essen() {
+        System.out.print("Der Hund muss sein Essen noch kauen!");
+        super.essen();
+    }
 }

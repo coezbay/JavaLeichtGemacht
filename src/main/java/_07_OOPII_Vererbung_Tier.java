@@ -14,5 +14,6 @@ public class _07_OOPII_Vererbung_Tier {
 
     // Methoden
     public void essen() {
+        System.out.print("Das Tier hat gegessen!");
     }
 }
