@@ -1,5 +1,4 @@
-
-public class _05_Array_WasIstEinArray {
+public class _06_OOPI_Main {
 
     public static void main(String[] args) {
         // Dingo Dongo
