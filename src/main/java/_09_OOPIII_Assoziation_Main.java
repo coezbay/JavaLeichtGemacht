@@ -1,3 +1,5 @@
+import javax.sound.midi.SysexMessage;
+
 public class _09_OOPIII_Assoziation_Main {
 
     public static void main(String[] args) {
@@ -18,5 +20,8 @@ public class _09_OOPIII_Assoziation_Main {
         _09_OOPIII_Assoziation_Mainboard mainboardAsus = new _09_OOPIII_Assoziation_Mainboard(4,2,4);
         _09_OOPIII_Assoziation_Computer computerPeter = new _09_OOPIII_Assoziation_Computer("Intel", mainboardAsus, 400);
         System.out.println(computerPeter.mainboard.usbPorts);
+
+        _09_OOPIII_Assoziation_Computer computerOlga = new _09_OOPIII_Assoziation_Computer(2,1,2, "AMD");
+        System.out.println(computerOlga.mainboard.ramSlots);
     }
 }

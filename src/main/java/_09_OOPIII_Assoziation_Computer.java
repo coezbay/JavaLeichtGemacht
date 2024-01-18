@@ -18,6 +18,11 @@ public class _09_OOPIII_Assoziation_Computer {
         this.preis = preis;
     }
 
+    public _09_OOPIII_Assoziation_Computer(int ramSlots, int kartenSlots, int usbPorts, String cpu){
+        mainboard = new _09_OOPIII_Assoziation_Mainboard(ramSlots, kartenSlots, usbPorts);
+        this.cpu = cpu;
+    }
+
     // Methoden
 
 }
