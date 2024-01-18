@@ -1,4 +1,4 @@
-public class _06_OOPI_Laptop {
+public class _06_OOPI_KlassenUndObjekte_Laptop {
 
     // Eigenschaften / Attribute
     int ram;
@@ -6,7 +6,7 @@ public class _06_OOPI_Laptop {
     String marke;
 
     // Konstruktoren
-    public  _06_OOPI_Laptop(int ram, double preis, String marke){
+    public _06_OOPI_KlassenUndObjekte_Laptop(int ram, double preis, String marke){
         this.ram = ram;
         this.preis = preis;
         this.marke = marke;

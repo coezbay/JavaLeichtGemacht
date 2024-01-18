@@ -1,4 +1,4 @@
-public class _07_OOPII_Tier {
+public class _07_OOPII_Vererbung_Tier {
 
     // Eigenschaften / Attribute
     String name;
@@ -6,7 +6,7 @@ public class _07_OOPII_Tier {
     int gewicht;
 
     // Konstruktoren
-    public _07_OOPII_Tier() {
+    public _07_OOPII_Vererbung_Tier() {
 
     }
 

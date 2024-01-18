@@ -1,4 +1,4 @@
-public class _06_OOPI_Main {
+public class _06_OOPI_KlassenUndObjekte_Main {
 
     public static void main(String[] args) {
         // Dingo Dongo
@@ -7,7 +7,7 @@ public class _06_OOPI_Main {
         System.out.println(zahl);
 
         // Datentyp variableNamen = new Konstruktor();
-        _06_OOPI_Auto bmw = new _06_OOPI_Auto();
+        _06_OOPI_KlassenUndObjekte_Auto bmw = new _06_OOPI_KlassenUndObjekte_Auto();
         System.out.println(bmw);
         bmw.preis = 5000;
         bmw.marke = "BMW";
@@ -26,9 +26,9 @@ public class _06_OOPI_Main {
 //
 //        System.out.println("Preis: " + vw.preis + " Marke: " + vw.marke);
 
-        _06_OOPI_Auto audi = new _06_OOPI_Auto(4, 5000, "Audi");
+        _06_OOPI_KlassenUndObjekte_Auto audi = new _06_OOPI_KlassenUndObjekte_Auto(4, 5000, "Audi");
         System.out.println("Reifenanzahl: " + audi.reifen + " Preis: " + audi.preis + " Marke: " + audi.marke);
-        _06_OOPI_Auto vw = new _06_OOPI_Auto(4, 6000, "VW");
+        _06_OOPI_KlassenUndObjekte_Auto vw = new _06_OOPI_KlassenUndObjekte_Auto(4, 6000, "VW");
 
         audi.gasgeben();
         audi.bremsen();
