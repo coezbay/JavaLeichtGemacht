@@ -34,10 +34,10 @@ public class _09_OOPIV_Modifikatoren_Main {
 //        player1.setLebenspunkte(schaden);
 
         _09_OOPIV_Modifikatoren_GoogleKonto peter = new _09_OOPIV_Modifikatoren_GoogleKonto("Peter123", "1234");
-        peter.setPasswort("3242sddfg");
-        System.out.println(peter.getPasswort());
+//        peter.setPasswort("3242sddfg");
+//        System.out.println(peter.getPasswort());
 
-
+        peter.setPasswort("1234");
 
     }
 }

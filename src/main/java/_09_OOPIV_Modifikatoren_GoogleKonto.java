@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class _09_OOPIV_Modifikatoren_GoogleKonto {
 
     // Eigenschaften / Attribute
@@ -18,7 +20,16 @@ public class _09_OOPIV_Modifikatoren_GoogleKonto {
     }
 
     public void setPasswort(String passwort) {
-        this.passwort = passwort;
+        if (passwort.equals(this.passwort)) {
+            System.out.println("Passwort stimmt, kann geändert werden.");
+            System.out.println("Bitte neues Passwort eingeben...");
+            Scanner scan = new Scanner(System.in);
+            String newPw = scan.nextLine();
+            this.passwort = newPw;
+            System.out.println("Das neue Passwort lautet: " + this.passwort);
+        } else {
+            System.out.println("Passwort falsch, kann nicht geändert werden!");
+        }
     }
 
     public String getBenutzerName() {
@@ -28,6 +39,4 @@ public class _09_OOPIV_Modifikatoren_GoogleKonto {
     public void setBenutzerName(String benutzerName) {
         this.benutzerName = benutzerName;
     }
-
-
 }
