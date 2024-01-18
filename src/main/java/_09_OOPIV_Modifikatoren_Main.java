@@ -14,5 +14,9 @@ public class _09_OOPIV_Modifikatoren_Main {
         _09_OOPIV_Modifikatoren_Held player1 = new _09_OOPIV_Modifikatoren_Held(46);
         player1.getLebenspunkte();
 
+        int schaden = 10;
+
+        player1.setLebenspunkte(schaden);
+
     }
 }

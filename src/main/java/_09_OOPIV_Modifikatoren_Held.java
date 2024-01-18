@@ -19,7 +19,8 @@ public class _09_OOPIV_Modifikatoren_Held {
         System.out.println(this.lebenspunkte);
     }
 
-    public void setLebenspunkte(){
-
+    public void setLebenspunkte(int schaden){
+        this.lebenspunkte -= schaden;
+        System.out.println(this.lebenspunkte);
     }
 }
