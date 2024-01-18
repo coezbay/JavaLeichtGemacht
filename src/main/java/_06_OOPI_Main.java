@@ -29,6 +29,11 @@ public class _06_OOPI_Main {
         _06_OOPI_Auto audi = new _06_OOPI_Auto(4, 5000, "Audi");
         System.out.println("Reifenanzahl: " + audi.reifen + " Preis: " + audi.preis + " Marke: " + audi.marke);
         _06_OOPI_Auto vw = new _06_OOPI_Auto(4, 6000, "VW");
+
+        audi.gasgeben();
+        audi.bremsen();
+
+        audi.vergleichePreis(4000);
     }
 
 }
