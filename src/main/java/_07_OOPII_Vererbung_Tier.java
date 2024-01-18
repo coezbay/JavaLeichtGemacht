@@ -6,12 +6,13 @@ public class _07_OOPII_Vererbung_Tier {
     int gewicht;
 
     // Konstruktoren
-    public _07_OOPII_Vererbung_Tier() {
-
+    public _07_OOPII_Vererbung_Tier(String name, int groesse, int gewicht) {
+        this.name = name;
+        this.groesse = groesse;
+        this.gewicht = gewicht;
     }
 
     // Methoden
     public void essen() {
-
     }
 }
