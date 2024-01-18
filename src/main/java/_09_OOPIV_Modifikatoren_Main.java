@@ -26,12 +26,18 @@ public class _09_OOPIV_Modifikatoren_Main {
 //        player2.lebenspunkte = -100;
 //        System.out.println("Der Held player2 hat: " + player2.lebenspunkte + " Lebenspunkte.");
 
-        _09_OOPIV_Modifikatoren_Held player1 = new _09_OOPIV_Modifikatoren_Held(46);
-        player1.getLebenspunkte();
+//        _09_OOPIV_Modifikatoren_Held player1 = new _09_OOPIV_Modifikatoren_Held(46);
+//        player1.getLebenspunkte();
+//
+//        int schaden = 10;
+//
+//        player1.setLebenspunkte(schaden);
 
-        int schaden = 10;
+        _09_OOPIV_Modifikatoren_GoogleKonto peter = new _09_OOPIV_Modifikatoren_GoogleKonto("Peter123", "1234");
+        peter.setPasswort("3242sddfg");
+        System.out.println(peter.getPasswort());
 
-        player1.setLebenspunkte(schaden);
+
 
     }
 }
