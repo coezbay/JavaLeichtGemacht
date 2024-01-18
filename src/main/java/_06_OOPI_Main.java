@@ -3,21 +3,32 @@ public class _06_OOPI_Main {
     public static void main(String[] args) {
         // Dingo Dongo
 
-        // Veriable Deklaration
-        // Datentyp Name = Wert;
-        int zahl = 50;
-        double zahl1 = 34.34;
+        int zahl = 4;
+        System.out.println(zahl);
 
-        // Array Deklaration
-        // Datentyp[] Name = new Datentyp[Anzahl];
-        int[] zahlenArray = new int[7];
-        zahlenArray[3] = 50;
-        zahlenArray[5] = 500;
-        zahlenArray[0] = 40;
+        // Datentyp variableNamen = new Konstruktor();
+        _06_OOPI_Auto bmw = new _06_OOPI_Auto();
+        System.out.println(bmw);
+        bmw.preis = 5000;
+        bmw.marke = "BMW";
 
-        double[] zahlenArray1 = new double[7]; // Nur das Array erstellt
-        zahlenArray1[1] = 34.23;
-        zahlenArray1[4] = 50.45;
+        System.out.println("Preis: " + bmw.preis + " Marke: " + bmw.marke);
+
+//        _06_OOPI_Auto audi = new _06_OOPI_Auto();
+//        audi.preis = 6000;
+//        audi.marke = "Audi";
+//
+//        System.out.println("Preis: " + audi.preis + " Marke: " + audi.marke);
+//
+//        _06_OOPI_Auto vw = new _06_OOPI_Auto();
+//        vw.preis = 3000;
+//        vw.marke = "VW";
+//
+//        System.out.println("Preis: " + vw.preis + " Marke: " + vw.marke);
+
+        _06_OOPI_Auto audi = new _06_OOPI_Auto(4, 5000, "Audi");
+        System.out.println("Reifenanzahl: " + audi.reifen + " Preis: " + audi.preis + " Marke: " + audi.marke);
+        _06_OOPI_Auto vw = new _06_OOPI_Auto(4, 6000, "VW");
     }
 
 }
