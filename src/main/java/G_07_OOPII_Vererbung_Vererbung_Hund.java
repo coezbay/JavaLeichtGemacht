@@ -1,10 +1,10 @@
-public class _G_07_OOPII_Vererbung_Vererbung_Hund extends G_07_OOPII_Vererbung_Tier {
+public class G_07_OOPII_Vererbung_Vererbung_Hund extends G_07_OOPII_Vererbung_Tier {
 
     // Eigenschaften / Attribute
     int zaehne;
 
     // Konstruktoren
-    public _G_07_OOPII_Vererbung_Vererbung_Hund(String name, int groesse, int gewicht, int zaehne) {
+    public G_07_OOPII_Vererbung_Vererbung_Hund(String name, int groesse, int gewicht, int zaehne) {
         super(name, groesse, gewicht);
         this.zaehne = zaehne;
     }
