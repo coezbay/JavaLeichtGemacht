@@ -1,16 +1,16 @@
 
-public class F_06_OOPI_KlassenUndObjekte_Auto {
+public class F_02_OOPI_KlassenUndObjekte_Auto {
 
     int reifen;
     int preis;
 
     String marke;
 
-    public F_06_OOPI_KlassenUndObjekte_Auto() {
+    public F_02_OOPI_KlassenUndObjekte_Auto() {
 
     }
 
-    public F_06_OOPI_KlassenUndObjekte_Auto(int reifen, int preis, String marke) {
+    public F_02_OOPI_KlassenUndObjekte_Auto(int reifen, int preis, String marke) {
         this.reifen = reifen;
         this.preis = preis;
         this.marke = marke;

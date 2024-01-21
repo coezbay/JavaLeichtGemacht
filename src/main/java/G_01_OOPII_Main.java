@@ -1,7 +1,6 @@
-public class G_07_OOPII_Main {
+public class G_01_OOPII_Main {
 
     public static void main(String[] args) {
-        // Dingo Dongo
 
         G_07_OOPII_Vererbung_Vererbung_Hund bello = new G_07_OOPII_Vererbung_Vererbung_Hund("Bello", 3, 5, 42);
         bello.essen();

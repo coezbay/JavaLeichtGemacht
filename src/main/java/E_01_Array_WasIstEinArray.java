@@ -27,7 +27,6 @@ public class E_01_Array_WasIstEinArray {
 
          */
 
-
         // Veriable Deklaration
         // Datentyp Name = Wert;
         int zahl = 50;
