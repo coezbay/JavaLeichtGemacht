@@ -1,4 +1,4 @@
-public class G_07_OOPII_Vererbung_Tier {
+public class G_04_OOPII_Vererbung_Tier {
 
     // Eigenschaften / Attribute
     String name;
@@ -6,7 +6,7 @@ public class G_07_OOPII_Vererbung_Tier {
     int gewicht;
 
     // Konstruktoren
-    public G_07_OOPII_Vererbung_Tier(String name, int groesse, int gewicht) {
+    public G_04_OOPII_Vererbung_Tier(String name, int groesse, int gewicht) {
         this.name = name;
         this.groesse = groesse;
         this.gewicht = gewicht;

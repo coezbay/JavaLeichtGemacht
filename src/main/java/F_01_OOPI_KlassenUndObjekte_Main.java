@@ -60,5 +60,4 @@ public class F_01_OOPI_KlassenUndObjekte_Main {
 
         F_02_OOPI_KlassenUndObjekte_Auto.ausgabe();
     }
-
 }

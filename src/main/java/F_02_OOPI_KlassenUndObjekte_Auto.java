@@ -8,7 +8,7 @@ public class F_02_OOPI_KlassenUndObjekte_Auto {
 
     String marke;
 
-    public static void ausgabe(){
+    public static void ausgabe() {
         System.out.println("Ich bin eine Klassenmethode und benötige kein Objekt!");
     }
 
