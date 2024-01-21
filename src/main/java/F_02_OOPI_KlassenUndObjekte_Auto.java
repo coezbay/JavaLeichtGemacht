@@ -1,11 +1,13 @@
 
 public class F_02_OOPI_KlassenUndObjekte_Auto {
 
+    // Eigenschaften / Attribute
     int reifen;
     int preis;
 
     String marke;
 
+    // Konstruktoren
     public F_02_OOPI_KlassenUndObjekte_Auto() {
 
     }
@@ -17,19 +19,18 @@ public class F_02_OOPI_KlassenUndObjekte_Auto {
     }
 
     // Methoden
-
-    public void gasgeben(){
-        System.out.println("Das Auto mit der Marke: " + this.marke + " fährt jetzt los!");
+    public void gasgeben() {
+        System.out.println("Das Auto mit der Marke: " + this.marke + " fährt jetzt los!" + " Vergessen wir nicht, dass das Auto " + this.preis + " Euro kostet!");
     }
 
-    public void bremsen(){
+    public void bremsen() {
         System.out.println("Das Auto mit der Marke: " + this.marke + " bremst!");
     }
 
-    public void vergleichePreis(int preis){
-        if (this.preis <= preis ){
+    public void vergleichePreis(int preis) {
+        if (this.preis <= preis) {
             System.out.println("Der " + this.marke + " ist billiger!");
-        }else {
+        } else {
             System.out.println("Der " + this.marke + " ist teuerer!");
         }
     }
