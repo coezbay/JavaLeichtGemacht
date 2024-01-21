@@ -2,10 +2,15 @@
 public class F_02_OOPI_KlassenUndObjekte_Auto {
 
     // Eigenschaften / Attribute
+    static int reifenAnzahl = 5;
     int reifen;
     int preis;
 
     String marke;
+
+    public static void ausgabe(){
+        System.out.println("Ich bin eine Klassenmethode und benötige kein Objekt!");
+    }
 
     // Konstruktoren
     public F_02_OOPI_KlassenUndObjekte_Auto() {
