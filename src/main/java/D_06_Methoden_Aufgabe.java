@@ -1,5 +1,5 @@
 
-public class D_04_Methoden_AufgabeMethode {
+public class D_06_Methoden_Aufgabe {
 
     public static void main(String[] args) {
         // Dingo Dongo

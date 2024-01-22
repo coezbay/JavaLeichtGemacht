@@ -1,5 +1,5 @@
 
-public class D_04_Methoden_MethodenReturnII {
+public class D_04_Methoden_ReturnII {
 
     public static void main(String[] args) {
         // Dingo Dongo
