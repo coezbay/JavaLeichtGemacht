@@ -21,6 +21,12 @@ public class H_01_OOPIII_Assoziation_Main {
 //        H_02_OOPIII_Assoziation_Computer computerOlga = new H_02_OOPIII_Assoziation_Computer(2, 1, 2, "AMD");
 //        System.out.println(computerOlga.mainboard.ramSlots);
 
+        H_02_OOPIII_Assoziation_Computer cp2;
+        cp2 = new H_02_OOPIII_Assoziation_Computer()
+
+    // https://stackoverflow.com/questions/4815301/can-intellij-auto-complete-constructor-parameters-on-new-expression
+
+
         H_04_OOPIII_Assoziation_Auto bmw = new H_04_OOPIII_Assoziation_Auto("BMW", "Goodyear", "Winterreifen");
         H_04_OOPIII_Assoziation_Auto vw = new H_04_OOPIII_Assoziation_Auto("VW", "Michelin", "Sommerreifen");
 
