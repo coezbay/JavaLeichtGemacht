@@ -2,7 +2,7 @@ public class H_04_OOPIII_Assoziation_Auto {
 
     // Eigenschaften / Attribute
     String autoMarke;
-    H_04_OOPIII_Assoziation_Reifen reifen;
+    H_05_OOPIII_Assoziation_Reifen reifen;
 
     // Konstruktor
     public H_04_OOPIII_Assoziation_Auto() {
@@ -11,7 +11,7 @@ public class H_04_OOPIII_Assoziation_Auto {
 
     public H_04_OOPIII_Assoziation_Auto(String autoMarke, String reifenMarke, String reifenTyp) {
         this.autoMarke = autoMarke;
-        reifen = new H_04_OOPIII_Assoziation_Reifen(reifenMarke, reifenTyp);
+        reifen = new H_05_OOPIII_Assoziation_Reifen(reifenMarke, reifenTyp);
     }
 
     // Methoden

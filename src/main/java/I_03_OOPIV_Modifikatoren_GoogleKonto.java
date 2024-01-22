@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class I_09_OOPIV_Modifikatoren_GoogleKonto {
+public class I_03_OOPIV_Modifikatoren_GoogleKonto {
 
     // Eigenschaften / Attribute
     private String benutzerName;
@@ -8,7 +8,7 @@ public class I_09_OOPIV_Modifikatoren_GoogleKonto {
 
 
     // Konstruktor
-    public I_09_OOPIV_Modifikatoren_GoogleKonto(String benutzerName, String passwort) {
+    public I_03_OOPIV_Modifikatoren_GoogleKonto(String benutzerName, String passwort) {
         this.benutzerName = benutzerName;
         this.passwort = passwort;
     }
