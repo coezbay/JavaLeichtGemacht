@@ -1,4 +1,4 @@
-public class A_01_Grundlagen_Zeichenkette {
+public class A_02_Grundlagen_Zeichenkette {
     public static void main(String[] args) {
         // TODO Auto-generated method stub
         // 8 primitive Datentypen in Java

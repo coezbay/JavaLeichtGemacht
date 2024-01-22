@@ -1,5 +1,5 @@
 
-public class B_02_InputOutputMain {
+public class B_03_InputOutputMain {
     public static void main(String[] args) {
         // DingoDongo
 

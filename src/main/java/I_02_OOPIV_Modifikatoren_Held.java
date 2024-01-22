@@ -1,4 +1,4 @@
-public class I_09_OOPIV_Modifikatoren_Held {
+public class I_02_OOPIV_Modifikatoren_Held {
 
     // Eigenschaften / Attribute
     public String name;
@@ -6,7 +6,7 @@ public class I_09_OOPIV_Modifikatoren_Held {
 
     // Konstruktor
 
-    public I_09_OOPIV_Modifikatoren_Held(int lebenspunkte) {
+    public I_02_OOPIV_Modifikatoren_Held(int lebenspunkte) {
         if (lebenspunkte <= 100 && lebenspunkte > 0) {
             this.lebenspunkte = lebenspunkte;
         }else{

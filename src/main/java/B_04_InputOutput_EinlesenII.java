@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class B_02_InputOutput_EinlesenII {
+public class B_04_InputOutput_EinlesenII {
 
     public static void main(String[] args) {
         //DingoDongo

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class B_02_InputOutput_Test {
+public class B_05_InputOutput_Test {
 
     public static void main(String[] args) {
 
