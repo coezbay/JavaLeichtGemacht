@@ -1,0 +1,78 @@
+public class K_00_OOPV_Interface {
+
+    /*
+
+        Ein Interface in Java ist eine Art Vertragsdefinition zwischen verschiedenen Teilen eines Programms.
+        Es definiert eine Reihe von Methoden, die Klassen implementieren können, aber es enthält keine Implementierung für diese Methoden.
+        Ein Interface legt fest, was getan werden soll, aber nicht wie es getan werden soll.
+        Die eigentliche Implementierung der Methoden erfolgt in den Klassen, die das Interface implementieren.
+
+
+        Hier sind einige Schlüsseleigenschaften von Interfaces in Java:
+
+
+        Methodendefinitionen:
+        Ein Interface kann Methodendeklarationen enthalten.
+        Diese Methoden sind standardmäßig public und abstract, was bedeutet, dass sie von implementierenden Klassen umgesetzt werden müssen.
+
+
+        Default-Methoden (seit Java 8):
+        Interfaces können auch Default-Methoden enthalten, die eine Standardimplementierung bieten.
+        Klassen, die das Interface implementieren, können diese Implementierung übernehmen oder sie überschreiben.
+
+
+        Statische Methoden:
+        Seit Java 8 können Interfaces auch statische Methoden enthalten, die nicht von implementierenden Klassen überschrieben werden können.
+
+
+        Konstanten:
+        Interfaces können öffentliche, statische, finale Variablen enthalten, die im Wesentlichen Konstanten sind.
+
+            Konstanten in der Programmierung sind Werte, die einmal definiert und während der Laufzeit eines Programms nicht geändert werden können.
+            Sie dienen dazu, Werte zu speichern, die während der gesamten Ausführung des Programms gleich bleiben sollen.
+            Die Verwendung von Konstanten erhöht die Lesbarkeit und Wartbarkeit des Codes, da sie es ermöglichen,
+            zentrale Werte an einer Stelle zu definieren und überall im Programm zu verwenden, ohne dass die Gefahr besteht,
+            dass diese Werte versehentlich geändert werden.
+            In Java werden Konstanten typischerweise mit den Schlüsselwörtern final und static definiert.
+            final bedeutet, dass der Wert einer Variablen nicht geändert werden kann, nachdem er einmal zugewiesen wurde.
+            static bedeutet, dass die Variable auf Klassenebene und nicht auf Instanzebene existiert.
+
+            Hier ist ein einfaches Beispiel für eine Konstante in Java:
+
+            public class MyClass {
+                public static final int MAX_USER_COUNT = 100;
+            }
+
+            In diesem Beispiel ist MAX_USER_COUNT eine Konstante, die den Wert 100 hat.
+            Da sie mit static final deklariert ist, gehört sie zur Klasse MyClass (und nicht zu einer bestimmten Instanz davon) und ihr Wert kann nach der Initialisierung nicht mehr geändert werden.
+
+            Die Verwendung von Konstanten hat mehrere Vorteile:
+
+            Klarheit und Lesbarkeit:
+            Konstanten machen den Code verständlicher, da der Name der Konstanten oft beschreibt, was der Wert bedeutet.
+
+            Wartbarkeit:
+            Wenn ein Wert in mehreren Stellen im Code verwendet wird, ist es einfacher, ihn nur an einer Stelle (in der Konstanten) zu ändern, anstatt überall im Code.
+
+            Fehlervermeidung:
+            Da Konstanten nicht geändert werden können, wird das Risiko von Fehlern durch unbeabsichtigte Wertänderungen reduziert.
+
+            Optimierung:
+            Compiler und Laufzeitumgebungen können Optimierungen für Konstanten vornehmen, da ihr Wert zur Kompilierzeit bekannt ist und sich nicht ändert.
+
+
+        Mehrfachvererbung:
+        Eine Klasse in Java kann mehrere Interfaces implementieren, was einer Form der Mehrfachvererbung entspricht, da Java keine Mehrfachvererbung auf Klassenebene zulässt.
+
+
+        Trennung von Spezifikation und Implementierung:
+        Interfaces sind nützlich, um eine klare Trennung zwischen der Spezifikation eines Verhaltens (was getan werden soll) und seiner Implementierung (wie es getan werden soll) zu erreichen.
+
+
+        Zusammenfassend sind Interfaces in Java ein Mittel zur Definition eines Vertrags, der von anderen Klassen befolgt werden kann,
+        um konsistente Funktionalitäten zu gewährleisten, ohne sich auf eine spezifische Implementierung festzulegen.
+        Sie sind ein zentrales Konzept für die Objektorientierung und das Design von Software in Java.
+
+     */
+
+}
