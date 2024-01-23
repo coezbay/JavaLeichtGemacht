@@ -1,5 +1,5 @@
 
-public abstract class J_10_OOPV_AbstrakteKlasse_Tier {
+public abstract class J_02_OOPV_AbstrakteKlasse_Tier {
 
     // Eigenschaften / Attribute
     String name;
@@ -7,10 +7,11 @@ public abstract class J_10_OOPV_AbstrakteKlasse_Tier {
     int gewicht;
 
     // Konstruktoren
-    public J_10_OOPV_AbstrakteKlasse_Tier(){
+    public J_02_OOPV_AbstrakteKlasse_Tier() {
 
     }
-    public J_10_OOPV_AbstrakteKlasse_Tier(String name, int groesse, int gewicht) {
+
+    public J_02_OOPV_AbstrakteKlasse_Tier(String name, int groesse, int gewicht) {
         this.name = name;
         this.groesse = groesse;
         this.gewicht = gewicht;
@@ -21,7 +22,11 @@ public abstract class J_10_OOPV_AbstrakteKlasse_Tier {
 
     public abstract void atmen();
 
-    public String getName(){
+    public abstract void trinken();
+
+    public String getName() {
         return name;
     }
+
 }
+
