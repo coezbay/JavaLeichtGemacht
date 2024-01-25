@@ -20,7 +20,7 @@ public abstract class J_00_OOPV_AbstrakteKlasse_Auto {
         System.out.println("Das Auto startet");
     }
 
-    public abstract void bremsen();
+    public void bremsen(){
 
-
+    }
 }
