@@ -10,7 +10,7 @@ public class D_00_Methoden {
     Der Methodenkopf definiert den Namen der Methode, ihre Rückgabetypen und Parameter. Der Aufbau des Methodenkopfes sieht typischerweise so aus:
 
     Zugriffsmodifikator Rückgabetyp Methodenname(Parameterliste) {
-    // Methodenkörper
+        // Methodenkörper
     }
 
     Zugriffsmodifikator:
