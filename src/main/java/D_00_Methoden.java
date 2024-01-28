@@ -1,0 +1,48 @@
+public class D_00_Methoden {
+
+    /*
+    Methoden in Java sind ein fundamentales Konzept, das es ermöglicht, Code zu modularisieren und wiederzuverwenden.
+    Sie sind Blöcke von Code, die ausgeführt werden, wenn sie aufgerufen werden.
+    Methoden können Daten verarbeiten und Ergebnisse zurückgeben. Der Aufbau einer Methode in Java umfasst mehrere Teile:
+
+
+    1. Methodenkopf (Method Header):
+    Der Methodenkopf definiert den Namen der Methode, ihre Rückgabetypen und Parameter. Der Aufbau des Methodenkopfes sieht typischerweise so aus:
+
+    Zugriffsmodifikator Rückgabetyp Methodenname(Parameterliste) {
+    // Methodenkörper
+    }
+
+    Zugriffsmodifikator:
+    Bestimmt, von wo aus die Methode zugänglich ist. Beispiele hierfür sind public, protected, private und der Standardzugriff (kein Schlüsselwort).
+
+    Rückgabetyp:
+    Der Datentyp des Werts, den die Methode zurückgibt. Wenn die Methode keinen Wert zurückgibt, wird das Schlüsselwort void verwendet.
+
+    Methodenname:
+    Der Name der Methode. Dieser sollte die Aktion der Methode beschreiben und nach den Konventionen für Java-Bezeichner benannt sein.
+
+    Parameterliste:
+    Eine Liste von Variablen, die beim Aufruf der Methode übergeben werden. Diese Variablen werden als Parameter bezeichnet und müssen mit einem Typ deklariert werden. Die Parameterliste kann leer sein.
+
+
+    2. Methodenkörper (Method Body):
+    Der Methodenkörper enthält den Code, der ausgeführt wird, wenn die Methode aufgerufen wird.
+    Er ist von geschweiften Klammern { } umgeben und kann beliebige Anweisungen und Ausdrücke enthalten, einschließlich weiterer Methodenaufrufe und Kontrollstrukturen wie Schleifen und Bedingungen.
+
+    Beispiel
+    Hier ist ein einfaches Beispiel für eine Methode in Java, die die Summe zweier Zahlen berechnet und zurückgibt:
+
+        public int summe(int zahl1, int zahl2) {
+            int ergebnis = zahl1 + zahl2;
+            return ergebnis;
+        }
+
+        In diesem Beispiel ist public der Zugriffsmodifikator, int der Rückgabetyp, summe der Methodenname, und int zahl1, int zahl2 sind die Parameter.
+        Der Methodenkörper berechnet die Summe von zahl1 und zahl2 und gibt sie mit return ergebnis; zurück.
+
+    Methoden in Java können sehr komplex sein und Features wie Überladung (mehrere Methoden mit dem gleichen Namen, aber unterschiedlichen Parametern), Rekursion (eine Methode, die sich selbst aufruft) und vieles mehr nutzen.
+
+     */
+
+}
