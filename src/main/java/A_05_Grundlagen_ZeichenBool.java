@@ -1,4 +1,4 @@
-public class A_03_Grundlagen_ZeichenBool {
+public class A_05_Grundlagen_ZeichenBool {
 
     public static void main(String[] args) {
         char varZeichen = '\u00A9';

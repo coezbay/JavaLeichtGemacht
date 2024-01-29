@@ -1,16 +1,19 @@
 /*
-    "Hello World" in Java ist ein einfaches Programm, das in der Programmiersprache Java geschrieben ist und den Text "Hello, World!" auf dem Bildschirm ausgibt.
-    Es ist eines der grundlegendsten und am häufigsten verwendeten Beispiele in der Programmierausbildung.
+    "Hello World" in Java ist ein einfaches Programm, dass in der Programmiersprache Java geschrieben ist und den Text "Hello, World!"
+    auf dem Bildschirm ausgibt.
+    Es ist eines der grundlegendsten und am häufigsten verwendeten Beispiele in der Entwickler- bzw. Programmierausbildung.
 
     Der Hauptzweck eines solchen Programms besteht darin:
 
     Einführung in eine Programmiersprache:
-    Für Anfänger ist das "Hello World"-Programm eine einfache und leicht verständliche Möglichkeit, mit den Grundlagen einer neuen Programmiersprache vertraut zu werden.
+    Für Anfänger ist das "Hello World"-Programm eine einfache und leicht verständliche Möglichkeit,
+    mit den Grundlagen einer neuen Programmiersprache vertraut zu werden.
     Es hilft, grundlegende Konzepte wie die Syntax und Struktur der Sprache zu verstehen.
 
     Testen der Entwicklungsumgebung:
-    "Hello World" dient auch dazu, sicherzustellen, dass die Entwicklungsumgebung (wie IDEs, Compiler, Interpreter etc.) korrekt eingerichtet und funktionsfähig ist.
-    Wenn das Programm erfolgreich ausgeführt wird, bedeutet das, dass alles richtig installiert und konfiguriert wurde.
+    "Hello World" dient auch dazu, sicherzustellen, dass die Entwicklungsumgebung (wie IDEs, Compiler, Interpreter etc.)
+    korrekt eingerichtet und funktionsfähig ist.
+    Wenn das Programm erfolgreich ausgeführt wird, bedeutet es, dass alles richtig installiert und konfiguriert wurde.
 
     Einstiegspunkt für komplexere Projekte:
     Es bildet eine Grundlage, auf der Anfänger aufbauen und komplexere Programme entwickeln können.
@@ -28,7 +31,7 @@ public class A_00_Grundlagen_HelloWorld {
 }
 
 /*
-    In diesem Beispiel:
+    In diesem Beispiel passiert Folgendes:
     public class HelloWorld definiert eine Klasse namens HelloWorld.
     public static void main(String[] args) ist die Hauptmethode, der Einstiegspunkt des Programms.
     System.out.println("Hello, World!"); ist eine Anweisung, die den Text "Hello, World!" auf dem Bildschirm ausgibt.
