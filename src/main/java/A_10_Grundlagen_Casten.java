@@ -63,8 +63,5 @@ public class A_10_Grundlagen_Casten {
 
         int gesamtPreis = autoPreis1 + autoPreis2;
         System.out.println(gesamtPreis);
-
-
     }
-
 }
