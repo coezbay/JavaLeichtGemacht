@@ -32,6 +32,16 @@ Ich bin offen für Beiträge, die das Lernmaterial erweitern oder verbessern. We
 
 Während meiner Lernreise nutze ich verschiedene Ressourcen, darunter:
 
+### Bücher:
+Java von Kopf bis Fuss ISBN 978-3-96009-206-3
+
+### Udemy:
+Ich habe mit zwei Kursen, mit recht vielen Aufrufen / Käufen angefangen, kann aber keines der beiden Kurse weiterempfehlen.
+
+### Mein Blog
+
+https://ceosbay.com (Ist pausiert, da ich meine Ressourcen anderweitig benötige. Dennoch lohnt sich ein Blick ;)) 
+
 ## Lizenz
 
 Dieses Projekt ist unter der MIT-Lizenz veröffentlicht.
