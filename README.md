@@ -36,7 +36,12 @@ Während meiner Lernreise nutze ich verschiedene Ressourcen, darunter:
 Java von Kopf bis Fuss ISBN 978-3-96009-206-3
 
 ### Udemy:
-Ich habe mit zwei Kursen, mit recht vielen Aufrufen / Käufen angefangen, kann aber keines der beiden Kurse weiterempfehlen.
+Ich habe mit zwei Kursen, mit recht vielen Aufrufen / Käufen angefangen, kann aber keines der beiden Kurse weiterempfehlen, da sie mir persönlich nicht gefallen haben.
+Der erste Kurs den ich mir angesehen habe war "Java leicht gemacht - Von Christian Gesty". Es ist/war zwar für mich ganz ok für den Einstieg aber ich kam mit seinem Sprachgebrauch, besonders im Englischen ganz und gar nicht zurecht.
+Die Erwähnung des zweiten Kurses wäre anmaßend, da ich gleich nach den ersten paar Minuten auf das zuvor erwähnte Buch umgestiegen bin.
+
+### stackoverflow:
+Das gute alte stackoverflow. Hat/hilft mir hier und da geholfen/weiter. 
 
 ### Mein Blog
 
