@@ -1,4 +1,3 @@
-/*
 Das Erlernen einer Programmiersprache wie Java kann auf verschiedene Arten erfolgen, abhängig von Ihren persönlichen Lernvorlieben, Ihrem Zeitplan und Ihrem Ziel.
 
 Hier sind einige effektive Methoden, um Java zu lernen:
@@ -34,4 +33,3 @@ Es gibt viele YouTuber, die Java-Programmierungsthemen behandeln. Sie bieten kos
 Es ist wichtig, eine Methode zu wählen, die zum eigenen Lernstil passt.
 
 Es ist ratsam, verschiedene Ressourcen und Methoden anzuwenden, um ein umfassendes Verständnis zu entwickeln und praktische Erfahrungen zu sammeln.
-*/

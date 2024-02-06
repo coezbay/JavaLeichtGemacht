@@ -18,11 +18,11 @@
         Datentypen:
         In Java gibt es verschiedene Datentypen für Variablen, darunter:
 
-            Primitive Datentypen:
-            wie int (für ganze Zahlen), double (für Fließkommazahlen), char (für einzelne Zeichen) und boolean (für Wahrheitswerte wahr/falsch).
+        Primitive Datentypen:
+        wie int (für ganze Zahlen), double (für Fließkommazahlen), char (für einzelne Zeichen) und boolean (für Wahrheitswerte wahr/falsch).
 
-            Nicht-primitive Datentypen (Referenztypen):
-            wie String (für Text), Arrays und Objekte.
+        Nicht-primitive Datentypen (Referenztypen):
+        wie String (für Text), Arrays und Objekte.
 
         Geltungsbereich (Scope):
         Der Geltungsbereich einer Variablen bestimmt, wo sie im Code verwendet werden kann.
@@ -40,5 +40,5 @@
 
 */
 public class A_01_Grundlagen_Variablen {
-
+    int meinAlter = 30;
 }
