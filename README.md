@@ -11,9 +11,9 @@ Außerdem kommt es in vielen Bereichen von der Entwicklung von Android-Apps bis 
 
 ## Erste Schritte
 
-Bevor man mit dem Programmieren beginnen kann, musste man sich das Java Development Kit (JDK) installieren. 
+Bevor man mit dem Programmieren beginnen kann, muss man sich das Java Development Kit (JDK) installieren. 
 
-Die offizielle Anleitung von Oracle hat mir dabei geholfen: [JDK Installation](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+Die offizielle Website von Oracle hat mir dabei geholfen: [JDK Installation](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
 
 ## Repository-Struktur
 
