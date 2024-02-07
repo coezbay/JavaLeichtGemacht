@@ -1,38 +1,48 @@
-
 public class A_03_Grundlagen_Variablen {
 
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
-        // 8 primitive Datentypen in Java
-        /*
-         * byte
-         * short
-         * int
-         * long
-         * float
-         * double
-         * boolean
-         * char
-         */
-        // <Datentyp> <Variablenamen> = <Wert> ;
+        // Demonstration verschiedener primitiver Datentypen in Java
 
-        int varZahl1 = 3;
-        long varZahl2 = 300;
+        // Ganzzahlige Datentypen
+        byte kleineZahl = 12; // Sehr kleiner Ganzzahlbereich
+        short kurzeZahl = 1024; // Kleiner Ganzzahlbereich
+        int ganzeZahl = 50000; // Standard Ganzzahl
+        long langeZahl = 123456789L; // Großer Ganzzahlbereich
 
-        double varZahl3 = 322.23;
-        float varZahl4 = 23.34f;
+        // Ausgabe der ganzzahligen Datentypen
+        System.out.println("Kleine Zahl (byte): " + kleineZahl);
+        System.out.println("Kurze Zahl (short): " + kurzeZahl);
+        System.out.println("Ganze Zahl (int): " + ganzeZahl);
+        System.out.println("Lange Zahl (long): " + langeZahl);
 
-        boolean userKlick = false;
+        // Fließkommazahlen
+        float kommaZahl = 5.75f; // Fließkommazahl mit geringerer Präzision
+        double doppelteGenauigkeit = 19.99; // Fließkommazahl mit hoher Präzision
 
-        char zeichen = '!';
+        // Ausgabe der Fließkommazahlen
+        System.out.println("Komma Zahl (float): " + kommaZahl);
+        System.out.println("Doppelte Genauigkeit (double): " + doppelteGenauigkeit);
 
-        varZahl1 = 5;
+        // Wahrheitswert
+        boolean istVolljaehrig = true; // Kann wahr oder falsch sein
 
-        int highscore = 0;
-        System.out.println("Dein Highscore: " + highscore);
-        highscore = 10;
-        System.out.println("Dein Highscore: " + highscore);
-        highscore = 20;
-        System.out.println("Dein Highscore: " + highscore);
+        // Ausgabe des Wahrheitswerts
+        System.out.println("Ist volljährig (boolean): " + istVolljaehrig);
+
+        // Zeichen
+        char symbol = '@'; // Einzelnes Unicode-Zeichen
+
+        // Ausgabe des Zeichens
+        System.out.println("Symbol (char): " + symbol);
+
+        // Demonstration der Variablenaktualisierung
+        int punktzahl = 0; // Initialwert
+        System.out.println("Anfängliche Punktzahl: " + punktzahl);
+
+        punktzahl = 50; // Aktualisierung
+        System.out.println("Aktualisierte Punktzahl: " + punktzahl);
+
+        punktzahl += 50; // Weitere Erhöhung
+        System.out.println("Endgültige Punktzahl: " + punktzahl);
     }
 }
