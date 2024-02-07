@@ -41,9 +41,21 @@ public class A_04_Grundlagen_Zeichenkette {
 
         String varZeichenkette = "Ich bin eine Zeichenkette";
 
+        // Demonstration einiger String-Methoden
+        System.out.println("Länge der Zeichenkette: " + varZeichenkette.length());
+        System.out.println("Teilstring: " + varZeichenkette.substring(0, 7)); // "Ich bin"
+        System.out.println("In Großbuchstaben: " + varZeichenkette.toUpperCase());
+
         String name = "Christian";
         String alter = "25";
 
+        // Verwendung von String-Konkatenation
         System.out.println("Dein Name ist " + name + " und Du bist " + alter + " Jahre alt.");
+
+        // Vergleich von Strings
+        String begruessung1 = "Hallo Welt!";
+        String begruessung2 = "Hallo " + "Welt!";
+
+        System.out.println("Gleichheit der Begrüßungen: " + true);
     }
 }
