@@ -1,3 +1,16 @@
+/*
+
+Bei der if-Anweisung:
+"Falls es Schokolade gibt ..." bedeutet, dass der nachfolgende Codeblock genau einmal ausgeführt wird,
+wenn die Bedingung (das Vorhandensein von Schokolade) erfüllt ist.
+
+Bei der while-Schleife:
+"Solange es Schokolade gibt ..." impliziert, dass der nachfolgende Codeblock wiederholt ausgeführt wird,
+solange die Bedingung (das Vorhandensein von Schokolade) wahr ist.
+Die Schleife wird beendet, sobald keine Schokolade mehr vorhanden ist (die Bedingung wird falsch).
+
+*/
+
 import java.util.Scanner;
 
 public class C_09_KontrollstrukturenUnterschiedForWhile {
