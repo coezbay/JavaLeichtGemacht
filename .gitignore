@@ -1,16 +1,44 @@
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+### Java ###
+/target/
+# Exclude packaging artifacts
+!/target/*.jar
+!/target/*.war
+
+# Maven wrapper files (uncomment if you use Maven wrapper)
+# !.mvn/wrapper/maven-wrapper.jar
+# !.mvn/wrapper/maven-wrapper.properties
+# !.mvn/wrapper/MavenWrapperDownloader.java
+
+### Angular ###
+# Dependencies
+/todo-app/node_modules/
+
+# Compiled output
+/todo-app/dist/
+/todo-app/out-tsc/
+
+# Logs
+/todo-app/*.log
+
+# Angular cache
+/todo-app/.angular/cache/
+
+# Temporary files
+/todo-app/*.tmp
+/todo-app/*.tmp.*
+/todo-app/temp/
+
+# Environment files
+/todo-app/*.env
+/todo-app/*.env.local
 
 ### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
+.idea/
 *.iws
 *.iml
 *.ipr
+# Uncomment if you wish to ignore the idea folder for Angular as well
+# /todo-app/.idea/
 
 ### Eclipse ###
 .apt_generated
@@ -27,12 +55,31 @@ target/
 /dist/
 /nbdist/
 /.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+/build/
 
 ### VS Code ###
 .vscode/
 
-### Mac OS ###
+### macOS ###
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disks
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Other files to ignore
+*.class
+*~
+*.bak
+*.swp
+*.tmp
