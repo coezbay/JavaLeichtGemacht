@@ -1,25 +1,22 @@
 public class A_12_Grundlagen_AufgabeII {
-
     public static void main(String[] args) {
-        //DingoDongo
 
         /*
-         * Aufgabe
-         *
-         * 1. Auto kostet: 3500
-         * 2. Auto kostet: 2340,48
-         *
-         * 1. Daten in Variablen abspeichern
-         * 2. Kommazahl umwandeln zu einer Ganzzahl
-         * 3. Beide Ganzzahlen zu einem Gesamtbetrag verrechnen
-         * 4. Gesamtbetrag ausgeben mit Hilfe von System.out.println("");
+         * Aufgabe:
+         * Speichere die Preise von zwei Autos in Variablen und berechne den Gesamtpreis.
+         * Beachte dabei, dass der Preis des zweiten Autos als Kommazahl gegeben ist und zu einer Ganzzahl umgewandelt werden muss.
          */
 
-        int auto1 = 3500;
-        int auto2 = (int) 2340.48;
+        int auto1Preis = 4600; // Preis des ersten Autos in Euro
+        double auto2Preis = 2899.99; // Preis des zweiten Autos als Kommazahl
 
-        int gesamtbetrag = auto1 + auto2;
+        // Umwandlung des Preises des zweiten Autos von einer Kommazahl zu einer Ganzzahl
+        int auto2PreisGerundet = (int) auto2Preis;
 
-        System.out.println("Gesamtbetrag " + gesamtbetrag + " €");
+        // Berechnung des Gesamtpreises
+        int gesamtpreis = auto1Preis + auto2PreisGerundet;
+
+        // Ausgabe des Gesamtpreises
+        System.out.println("Gesamtpreis der Autos: " + gesamtpreis + " €");
     }
 }

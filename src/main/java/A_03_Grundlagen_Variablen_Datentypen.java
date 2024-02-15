@@ -1,7 +1,7 @@
-public class A_03_Grundlagen_Variablen {
+// Demonstration verschiedener primitiver Datentypen in Java
 
+public class A_03_Grundlagen_Variablen_Datentypen {
     public static void main(String[] args) {
-        // Demonstration verschiedener primitiver Datentypen in Java
 
         // Ganzzahlige Datentypen
         byte kleineZahl = 12; // Sehr kleiner Ganzzahlbereich

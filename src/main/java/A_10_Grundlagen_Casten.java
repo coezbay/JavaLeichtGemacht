@@ -1,67 +1,41 @@
 /*
-    In Java bezeichnet "Cast" eine Operation, bei der ein Objekt oder eine Variable eines bestimmten Datentyps in einen anderen Datentyp umgewandelt wird.
-    Casting ist besonders wichtig, da Java eine streng typisierte Sprache ist, was bedeutet, dass jede Variable und jeder Ausdruck einen festgelegten Datentyp hat,
-    und Operationen in der Regel nur mit Werten desselben Typs oder mit Werten durchgeführt werden können, die in kompatible Typen konvertiert werden können.
 
+    Casting in Java
 
-    Es gibt zwei Arten von Casting in Java:
+    In Java bezeichnet "Casting" die Umwandlung eines Wertes von einem Datentyp in einen anderen.
+    Dies ist besonders relevant, da Java eine streng typisierte Sprache ist, in der jede Variable und jeder Ausdruck einen festgelegten Datentyp hat.
+    Operationen sind in der Regel nur mit Werten desselben Typs oder Werten möglich, die in kompatible Typen umgewandelt werden können.
+
+    Es gibt zwei Hauptarten von Casting in Java:
 
     1. Implizites Casting (Widening Cast):
-    Hierbei wird eine Variable automatisch in einen größeren, kompatiblen Datentyp umgewandelt. Java führt implizites Casting durch,
-    wenn der Zieltyp größer ist als der Quelltyp, was bedeutet, dass keine Daten verloren gehen.
-    Zum Beispiel kann ein int automatisch in ein long oder ein float in ein double umgewandelt werden.
-
-        int meinInt = 100;
-        long meinLong = meinInt;  // Implizites Casting von int zu long
+       Automatische Umwandlung einer Variable in einen größeren, kompatiblen Datentyp ohne Datenverlust.
+       Zum Beispiel: Ein 'int' wird automatisch in ein 'long' umgewandelt.
 
     2. Explizites Casting (Narrowing Cast):
-    Dies erfordert, dass der Programmierer manuell spezifiziert, in welchen Typ die Variable umgewandelt werden soll.
-    Explizites Casting wird benötigt, wenn der Zieltyp kleiner ist als der Quelltyp, was zu einem potenziellen Datenverlust führen kann.
-    Dies wird durch Voranstellen des Zieltyps in Klammern vor den Wert oder die Variable erreicht.
+       Erfordert eine manuelle Spezifikation des Zieltyps durch den Programmierer, besonders wenn der Zieltyp kleiner ist als der Quelltyp.
+       Dies kann zu Datenverlust führen und wird durch Voranstellen des Zieltyps in Klammern erreicht.
 
-        double meinDouble = 9.78;
-        int meinInt = (int) meinDouble; // Explizites Casting von double zu int
-
-    Beim expliziten Casting von Referenztypen (z.B. beim Casting zwischen verschiedenen Objekttypen) muss sichergestellt werden,
-    dass das Objekt im Speicher tatsächlich in den gewünschten Typ umgewandelt werden kann.
-    Andernfalls kann es zur Laufzeit zu einer ClassCastException kommen.
-
-        Object obj = "Hallo Welt!";
-        String str = (String) obj;  // Explizites Casting von Object zu String
-
-    Beim Umgang mit Casting ist Vorsicht geboten, insbesondere beim expliziten Casting, da dies zu Datenverlust oder zu Laufzeitfehlern führen kann,
-    wenn die Typumwandlung nicht zulässig ist.
- */
+*/
 
 public class A_10_Grundlagen_Casten {
-
     public static void main(String[] args) {
-        //BingoBongo
+        // Beispiel für explizites Casting
+        double initialAlter = 18.5;
+        int gerundetesAlter = (int) initialAlter; // Casting von 'double' zu 'int' entfernt Nachkommastellen
+        System.out.println("Gerundetes Alter: " + gerundetesAlter);
 
-        /*Was ist eine Typumwandlung / Casten?
-         *
-         * Das ist eine Umwandlung von einem Datentypen in einen anderen Datentypen
-         */
+        // Beispiel für implizites Casting
+        int kleineZahl = 30;
+        double grosseZahl = kleineZahl; // Implizites Casting von 'int' zu 'double'
+        System.out.println("Größere Zahl (implizites Casting): " + grosseZahl);
 
-        int userAlter = (int) 18.5; // (int) = castoperator
-        System.out.println(userAlter);
+        // Weitere Beispiele für explizites Casting
+        double preisErstesAuto = 3450.45;
+        double preisZweitesAuto = 2690.94;
 
-
-        // Implizites Casten (von klein nach groß) Keine Datenverluste
-        // Umwandlung findet bei Zuweisung statt
-        int zahl1 = 30;
-        double zahl2 = zahl1;
-        System.out.println(zahl2);
-
-
-        // Explizite Casten (von groß nach klein) Datenverluste
-        // Umwandlung findet mit Hilfe des cast (Datentyp)-Operators statt
-
-        // 1. Auto = 3450,45 € 2. Auto = 2690,94 €
-        int autoPreis1 = (int) 3450.45;
-        int autoPreis2 = (int) 2690.94;
-
-        int gesamtPreis = autoPreis1 + autoPreis2;
-        System.out.println(gesamtPreis);
+        // Umwandlung von 'double' zu 'int' führt zum Verlust der Nachkommastellen
+        int gesamtPreis = (int) preisErstesAuto + (int) preisZweitesAuto;
+        System.out.println("Gesamtpreis der Autos: " + gesamtPreis);
     }
 }

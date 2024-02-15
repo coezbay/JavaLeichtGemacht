@@ -1,24 +1,26 @@
 import java.util.Scanner;
-
 public class B_01_InputOutput_EinlesenI {
 
     public static void main(String[] args) {
-        // Dingo Dongo
 
-        // Klasse = Komplexer Datentyp sprich dort sind mehr als nur eine Information gespeichert.
+        // Initialisierung eines Scanner-Objekts für die Eingabe
+        Scanner scanner = new Scanner(System.in);
 
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Bitte eine Zahl eintippen... ");
-        double zahl = scan.nextDouble();
-        System.out.println("Ihre Zahl lautet: " + zahl);
+        // Eingabeaufforderung und Einlesen einer Zahl
+        System.out.print("Bitte geben Sie eine Zahl ein: ");
+        double zahl = scanner.nextDouble();
+        System.out.println("Eingegebene Zahl: " + zahl);
 
-        Scanner scan2 = new Scanner(System.in);
-        System.out.println("Geben Sie Ihren Namen ein: ");
-        String zeichenkette = scan2.next();
-        System.out.println("Bitte geben Sie Ihr Alter ein: ");
-        int alter = scan2.nextInt();
+        // Scanner-Objekt wird wiederverwendet, um zusätzliche Eingaben zu lesen
+        System.out.print("Geben Sie Ihren Namen ein: ");
+        String name = scanner.next(); // Liest das nächste Token als String
+        System.out.print("Geben Sie Ihr Alter ein: ");
+        int alter = scanner.nextInt(); // Liest die nächste Ganzzahl
 
-        System.out.println("Ihr Name: " + zeichenkette + " Ihr Alter: " + alter);
+        // Ausgabe der eingegebenen Informationen
+        System.out.println("Ihr Name: " + name + ", Ihr Alter: " + alter);
+
+        // Scanner-Objekt schließen, um Ressourcen freizugeben
+        scanner.close();
     }
-
 }

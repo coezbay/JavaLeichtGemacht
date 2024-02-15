@@ -1,53 +1,50 @@
+/*
+
+    Was sind Operatoren?
+    Operatoren ermöglichen es, Operationen auf Variablen und Werten durchzuführen.
+    Sie können für Berechnungen, Wertzuweisungen und die Steuerung des Programmflusses verwendet werden.
+
+*/
 
 public class A_08_Grundlagen_OperatorenI {
-
     public static void main(String[] args) {
-        //DingDong
 
-        // Was sind Operatoren?
-        /*
-         * Mit Operatoren kann man Variablen verändern oder allgemein
-         * mit ihnen arbeiten
-         *
-         */
-
-        int varZahl = 5;
-
-        int zahl1 = 10;
-        int zahl2 = 5;
-
+        // Initialisierung der Variablen
+        int varZahl = 8;
+        int zahl1 = 20;
+        int zahl2 = 4;
         int ergebnis;
 
-        ergebnis = zahl1 + zahl2; // 15
-        System.out.println(ergebnis);
+        // Arithmetische Operatoren
+        ergebnis = zahl1 + zahl2; // Addition: Addiert zahl1 und zahl2, Ergebnis ist 24
+        System.out.println("Addition: " + ergebnis);
 
-        ergebnis = zahl1 - zahl2; // 5
-        System.out.println(ergebnis);
+        ergebnis = zahl1 - zahl2; // Subtraktion: Subtrahiert zahl2 von zahl1, Ergebnis ist 16
+        System.out.println("Subtraktion: " + ergebnis);
 
-        ergebnis = zahl1 * zahl2; // 50
-        System.out.println(ergebnis);
+        ergebnis = zahl1 * zahl2; // Multiplikation: Multipliziert zahl1 mit zahl2, Ergebnis ist 80
+        System.out.println("Multiplikation: " + ergebnis);
 
-        ergebnis = zahl1 / zahl2; // 2
-        System.out.println(ergebnis);
+        ergebnis = zahl1 / zahl2; // Division: Teilt zahl1 durch zahl2, Ergebnis ist 5
+        System.out.println("Division: " + ergebnis);
 
-        varZahl++; // 6
-        System.out.println(varZahl);
+        // Inkrement- und Dekrement-Operatoren
+        varZahl++; // Inkrement: Erhöht varZahl um 1, Ergebnis ist 9
+        System.out.println("Inkrement: " + varZahl);
 
-        varZahl--; // 5
-        System.out.println(varZahl);
+        varZahl--; // Dekrement: Verringert varZahl um 1, Ergebnis ist wieder 8
+        System.out.println("Dekrement: " + varZahl);
 
-        int lebenGegner = 100;
-        int geschossEnergie = 20;
+        // Praktisches Beispiel mit Operatoren
+        int energieSchild = 50;
+        int schaden = 15;
 
-        lebenGegner = lebenGegner - geschossEnergie;
-        System.out.println(lebenGegner);
+        // Einfache Subtraktion zur Demonstration
+        energieSchild = energieSchild - schaden; // Subtrahiert schaden von energieSchild
+        System.out.println("Energie des Schilds nach Treffer: " + energieSchild);
 
-        // Zuweisungsoperator
-
-        lebenGegner -= geschossEnergie;
-        System.out.println("Leben Gegner: " + lebenGegner);
-
-
+        // Zusammengesetzte Zuweisungsoperatoren
+        energieSchild -= schaden; // Subtrahiert schaden von energieSchild und speichert das Ergebnis in energieSchild
+        System.out.println("Energie des Schilds nach weiterem Treffer: " + energieSchild);
     }
-
 }

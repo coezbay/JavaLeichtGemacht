@@ -1,9 +1,5 @@
-public class A_07_Grundlagen_Operatoren {
 
-    public static void main(String[] args) {
-        //DingDong
-
-    /*
+     ________________________________________________________________________________________________________________________
     | Syntax/Konzept        | Funktion                                                                                       |
     |-----------------------|------------------------------------------------------------------------------------------------|
     | + (Arithmetisch)      | Addiert zwei Werte.                                                                            |
@@ -23,8 +19,8 @@ public class A_07_Grundlagen_Operatoren {
     | || (Logisch)          | Gibt `true` zurück, wenn mindestens einer der Ausdrücke `true` ist (logisches ODER).           |
     | ! (Logisch)           | Negiert den Wahrheitswert des Ausdrucks (logisches NICHT).                                     |
     | & (Bitweise/Logisch)  | Führt eine bitweise UND-Operation oder ein logisches UND (wenn boolean) durch.                 |
-    | | (Bitweise/Logisch)  | Führt eine bitweise ODER-Operation oder ein logisches ODER (wenn boolean) durch.                |
-    | ^ (Bitweise/Logisch)  | Führt eine bitweise XOR-Operation oder ein logisches XOR (wenn boolean) durch.                  |
+    | | (Bitweise/Logisch)  | Führt eine bitweise ODER-Operation oder ein logisches ODER (wenn boolean) durch.               |
+    | ^ (Bitweise/Logisch)  | Führt eine bitweise XOR-Operation oder ein logisches XOR (wenn boolean) durch.                 |
     | ~ (Bitweise)          | Negiert bitweise den Wert.                                                                     |
     | << (Bitweise)         | Verschiebt die Bits nach links.                                                                |
     | >> (Bitweise)         | Verschiebt die Bits nach rechts und behält das Vorzeichen bei.                                 |
@@ -50,7 +46,21 @@ public class A_07_Grundlagen_Operatoren {
     | [] (Array-Zugriff)    | Greift auf ein Element eines Arrays zu.                                                        |
     | synchronized (Block)  | Markiert Blöcke, die synchronisiert werden müssen, um Thread-Sicherheit zu gewährleisten.      |
     | try-with-resources    | Automatisches Schließen von Ressourcen, die das AutoCloseable-Interface implementieren.        |
+    -------------------------------------------------------------------------------------------------------------------------
 
-    */
-    }
-}
+    Der Begriff "arithmetisch" bezieht sich auf die Grundlagen und Methoden der Arithmetik, einem Zweig der Mathematik,
+    der sich mit Zahlen und den grundlegenden Operationen befasst, die mit ihnen durchgeführt werden können.
+
+    Diese grundlegenden Operationen umfassen:
+
+    Addition (+): Das Zusammenzählen von zwei oder mehr Zahlen, um ihre Summe zu finden.
+    Subtraktion (-): Das Abziehen einer Zahl von einer anderen, um die Differenz zu ermitteln.
+    Multiplikation (× oder ·): Das Vervielfachen einer Zahl mit einer anderen, um das Produkt zu erhalten.
+    Division (÷ oder /): Das Teilen einer Zahl durch eine andere, um den Quotienten zu bestimmen.
+
+    Arithmetische Operationen können auch erweitert werden, um fortgeschrittenere Konzepte wie Potenzierung (das Erheben einer Zahl zu der Potenz einer anderen Zahl),
+    Wurzelziehen und den Gebrauch negativer Zahlen und Brüche einzuschließen.
+
+    Im weiteren Sinne bezieht sich "arithmetisch" auf alles, was mit diesen grundlegenden mathematischen Operationen und Prinzipien zu tun hat,
+    einschließlich arithmetischer Reihen in der Algebra, wo der Begriff verwendet wird, um eine Sequenz von Zahlen zu beschreiben,
+    die durch die wiederholte Addition oder Subtraktion einer konstanten Zahl (der Differenz) gebildet wird.

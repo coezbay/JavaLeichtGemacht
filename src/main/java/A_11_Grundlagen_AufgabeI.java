@@ -1,29 +1,24 @@
-
 public class A_11_Grundlagen_AufgabeI {
-
     public static void main(String[] args) {
-        // DingoDongo
 
         /*
          * Aufgabe:
-
-         * 1. Auto: 3500
-         * 2. Alter: 18
-         * 3. Vorname: Peter
-         * 4. Nachname: Müller
+         * Definiere Variablen für folgende Informationen und gib sie aus:
+         * 1. Preis des Autos
+         * 2. Alter der Person
+         * 3. Vorname der Person
+         * 4. Nachname der Person
          *
-         * 1. Überlege Dir welchen Datentyp diese Informationen repräsentieren
-         * 2. Lege Variablen fest und speichere diese Werte in den Variablen ab
-         * 3. Gebe die Werte mit Hilfe von System.out(""); aus
+         * Bestimme den geeigneten Datentyp für jede Information.
          */
 
-        int auto = 3500;
-        int alter = 18;
-        String vorname = "Peter ";
-        String nachname = "Müller";
+        int autoPreis = 4200; // Preis des Autos in Euro
+        int personAlter = 25; // Alter der Person
+        String personVorname = "Anna"; // Vorname der Person
+        String personNachname = "Schmidt"; // Nachname der Person
 
-        System.out.println("Herr " + vorname + nachname + ", Alter " + alter + ", sein Auto kostet: " + auto + " €");
+        // Ausgabe der gesammelten Informationen
+        System.out.println("Frau " + personVorname + " " + personNachname + ", Alter: " + personAlter + ", ihr Auto kostet: " + autoPreis + " €");
 
     }
 }
- 

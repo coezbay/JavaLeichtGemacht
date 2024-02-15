@@ -1,4 +1,5 @@
-Das Erlernen einer Programmiersprache wie Java kann auf verschiedene Arten erfolgen, abhängig von Ihren persönlichen Lernvorlieben, Ihrem Zeitplan und Ihrem Ziel.
+Das Erlernen einer Programmiersprache wie Java kann auf verschiedene Arten erfolgen, abhängig von den persönlichen Lernvorlieben,
+dem eigenen Zeitplan und den Zielen, die man verfolgt.
 
 Hier sind einige effektive Methoden, um Java zu lernen:
 
@@ -10,7 +11,7 @@ Diese Kurse bieten oft interaktive Übungen und Projekte, die dabei helfen, das 
 Bücher:
 Für einige Lerner sind Bücher eine bevorzugte Methode.
 Bücher können eine detaillierte und tiefgehende Erklärung von Konzepten bieten.
-Buchempfehlungen folgen.
+(Buchempfehlungen folgen)
 
 Praxisprojekte:
 Die Anwendung des Gelernten durch eigene Projekte oder die Mitarbeit an Open-Source-Projekten kann sehr effektiv sein, um praktische Erfahrungen zu sammeln.
@@ -23,6 +24,7 @@ Viele Bootcamps bieten auch Karriereunterstützung und Networking-Möglichkeiten
 Dokumentation und offizielle Ressourcen:
 Die offizielle Java-Dokumentation von Oracle ist eine umfassende Quelle, um tief in die Sprache einzutauchen.
 Sie enthält Tutorials, API-Dokumentationen und technische Artikel.
+Zu finden ist die offizielle Dokumentation auf https://docs.oracle.com/en/java/
 
 Foren und Communitys:
 Die Teilnahme an Foren wie Stack Overflow, Reddit (z.B. r/learnjava) oder Java-Communitys kann sehr hilfreich sein, um Fragen zu stellen, Lösungen zu finden und von anderen zu lernen.
@@ -32,4 +34,8 @@ Es gibt viele YouTuber, die Java-Programmierungsthemen behandeln. Sie bieten kos
 
 Es ist wichtig, eine Methode zu wählen, die zum eigenen Lernstil passt.
 
-Es ist ratsam, verschiedene Ressourcen und Methoden anzuwenden, um ein umfassendes Verständnis zu entwickeln und praktische Erfahrungen zu sammeln.
+Es ist ratsam, verschiedene Ressourcen und Methoden anzuwenden, um ein umfassenderes Verständnis zu entwickeln und praktische Erfahrungen zu sammeln.
+
+Ich persönlich mache dies gerne hier und auf meine Weise.
+
+Gleichzeitig hoffe ich, die Art und Weise wie ich es angehe, hilft auch dem ein oder anderen, effektiver in Java einzusteigen und es zu perfektionieren.
