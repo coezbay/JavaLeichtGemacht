@@ -1,33 +1,30 @@
 import java.util.Scanner;
-
 public class B_04_InputOutput_EinlesenII {
 
     public static void main(String[] args) {
-        //DingoDongo
 
-        Scanner scan = new Scanner(System.in);
+        // Aufgabe:
+        // Einlesen von zwei Benutzereingaben: eine Ganzzahl für das Alter und eine Zeichenkette für den Namen.
+        // Anschließend sollen das Alter und der Name in der Konsole ausgegeben werden.
 
-        // Aufgabe
-        /*
-         * Erstelle erneu ein Objekt der Klasse Scanner
-         * und lese 2 Werte mithile dieser Klassse ein
-         *
-         * 1. ist eine Ganzzahl, die Zahl soll Dein Alter sein
-         * 2. ist eine Zeichenkette(String), dein Namen
-         *
-         * Am Ende sollen Dein Alter und Dein Name in der Konsole ausgegeben werden
-         * System.out.println("Name: " +...+ " Alter: " +...)
-         */
+        // Initialisierung eines Scanner-Objekts für die Eingabe
+        Scanner scanner = new Scanner(System.in);
 
-        Scanner scan1 = new Scanner(System.in);
-        System.out.println("Bitte gebe Dein Alter ein:");
-        int alter = scan1.nextInt();
-        System.out.println("Du bist " + alter + " Jahre alt.");
+        // Eingabeaufforderung für das Alter und Einlesen des Alters
+        System.out.print("Bitte geben Sie Ihr Alter ein: ");
+        int alter = scanner.nextInt();
 
-        Scanner scan2 = new Scanner(System.in);
-        System.out.println("Bitte gebe Deinen Namen ein:");
-        String name = scan2.next();
+        // Konsumiere die verbleibende Zeilenumbruch-Eingabe
+        scanner.nextLine();
 
-        System.out.println("Dein Name ist " + name + ", und Du bist " + alter + " Jahre alt.");
+        // Eingabeaufforderung für den Namen und Einlesen des Namens
+        System.out.print("Bitte geben Sie Ihren Namen ein: ");
+        String name = scanner.nextLine();
+
+        // Ausgabe des Alters und des Namens
+        System.out.println("Ihr Name ist " + name + ", und Sie sind " + alter + " Jahre alt.");
+
+        // Scanner-Objekt schließen, um Ressourcen freizugeben
+        scanner.close();
     }
 }
