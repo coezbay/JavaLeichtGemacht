@@ -1,11 +1,9 @@
 import java.util.Scanner;
 
 public class B_05_InputOutput_Test {
-
     public static void main(String[] args) {
 
-        // Mit der Klasse Scanner hat man Methoden zur Verfügung, um Eingabe-Strömen (InputStream) einlesen
-        // d.h. Werte einlesen wie z.B. Zahlen
+        // Mit der Klasse Scanner hat man Methoden zur Verfügung, um Eingabe-Strömen (InputStream) einlesen d.h. Werte einlesen wie z.B. Zahlen
 
         Scanner scanner = new Scanner(System.in); // System.in = Input = Tastatur
 
