@@ -1,7 +1,12 @@
+/*
+
+    In dem nachfolgenden Codee vergleichen Vergleichsoperatoren Werte.
+    Vergleichsoperatoren sind oft in if-else-Anweisungen zu finden, um zu entscheiden, welcher Codeblock ausgeführt werden soll.
+
+*/
+
 public class A_09_Grundlagen_OperatorenII {
     public static void main(String[] args) {
-
-        // Vergleichsoperatoren vergleichen Werte und sind oft in if-else-Anweisungen zu finden, um zu entscheiden, welcher Codeblock ausgeführt werden soll.
 
         // Beispiel für Vergleichsoperatoren
         int x = 5;

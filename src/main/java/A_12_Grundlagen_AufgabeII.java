@@ -5,7 +5,7 @@ public class A_12_Grundlagen_AufgabeII {
          * Aufgabe:
          * Speichere die Preise von zwei Autos in Variablen und berechne den Gesamtpreis.
          * Beachte dabei, dass der Preis des zweiten Autos als Kommazahl gegeben ist und zu einer Ganzzahl umgewandelt werden muss.
-         */
+        */
 
         int auto1Preis = 4600; // Preis des ersten Autos in Euro
         double auto2Preis = 2899.99; // Preis des zweiten Autos als Kommazahl
