@@ -1,6 +1,6 @@
 /*
 
-    In dem nachfolgenden Codee vergleichen Vergleichsoperatoren Werte.
+    In dem nachfolgenden Code vergleichen Vergleichsoperatoren Werte.
     Vergleichsoperatoren sind oft in if-else-Anweisungen zu finden, um zu entscheiden, welcher Codeblock ausgeführt werden soll.
 
 */
