@@ -1,0 +1,30 @@
+Bei der Entwicklung einer Klasse ist es wesentlich, die Objekte zu berücksichtigen, die daraus resultieren werden.
+Diese Objekte besitzen bestimmte Eigenschaften und Fähigkeiten, die in zwei Hauptkategorien unterteilt werden können:
+
+1. Instanzvariablen (Eigenschaften):
+Diese repräsentieren den Zustand eines Objekts, d.h. die Daten, die jedes Objekt eines bestimmten Typs individuell speichert.
+Instanzvariablen sind essentiell, um die Einzigartigkeit jedes Objekts zu gewährleisten, da sie unterschiedliche Werte für verschiedene Objekte desselben Typs aufweisen können.
+
+2. Methoden (Fähigkeiten):
+Methoden definieren das Verhalten der Objekte, also was sie tun können.
+Sie operieren auf den Daten (Instanzvariablen) und bieten Mechanismen zum Lesen, Verändern oder Interagieren mit diesen Daten.
+Ein klassisches Beispiel sind Get- und Set-Methoden, die den Zugriff und die Modifikation von Instanzvariablen ermöglichen.
+
+Die Unterscheidung zwischen einer Klasse und einem Objekt ist fundamental in der objektorientierten Programmierung:
+
+- Eine Klasse ist ein abstrakter Bauplan, der die gemeinsamen Eigenschaften und Fähigkeiten der daraus erzeugten Objekte definiert.
+Sie legt fest, welche Instanzvariablen und Methoden vorhanden sein werden und wie sie strukturiert sind, aber sie ist nicht selbst eine konkrete Entität.
+
+- Ein Objekt ist eine konkrete Instanz einer Klasse. Es besitzt spezifische Werte für seine Instanzvariablen und kann die in seiner Klasse definierten Methoden ausführen.
+Objekte sind die realen Entitäten, mit denen in Programmen gearbeitet wird.
+
+Die Erstellung eines Objekts erfordert die Definition einer Klasse, die den Typ des Objekts spezifiziert, sowie eine Testklasse, in der dieses Objekt instanziiert und verwendet wird.
+Die Testklasse, die oft eine `main`-Methode enthält, dient dazu, die Funktionalitäten des neuen Objekts zu erproben.
+Sie ist essenziell für das Ausführen von Experimenten und Tests mit dem neuen Objekttyp, indem sie Zugriff auf dessen Methoden und Variablen ermöglicht.
+
+Eine Analogie zur Veranschaulichung von Klassen und Objekten könnte das Adressbuch in einem Telefon sein.
+Jeder Kontakt (Objekt) im Adressbuch (Klasse) hat dieselben Felder (Instanzvariablen), wie Name, Telefonnummer und E-Mail-Adresse, die individuelle Werte für jeden Kontakt enthalten.
+Die Aktionen, die mit einem Kontakt durchgeführt werden können, wie das Auslesen oder Ändern des Namens, entsprechen den Methoden der Klasse.
+
+Beim Entwerfen einer Klasse (Siehe CD_00_OOP_Entwurf_Klasse) ist es entscheidend, sowohl über die Daten nachzudenken, die jedes Objekt speichern muss,
+als auch über die Operationen, die auf diesen Daten ausgeführt werden können, um effektive und funktionale Objekte innerhalb des Programms zu schaffen.
