@@ -1,8 +1,5 @@
-
 public class D_02_MethodenII {
-
     public static void main(String[] args) {
-        // Dingo Dongo
 
         //<Modifikator Rückgabedatentyp Methodenname ( Datentyp Parameter1, Datentyp Parameter2 )>
         // Ein Modifikator gibt den Sichtbereich der Methode an, es gibt public, private und protected
@@ -28,11 +25,9 @@ public class D_02_MethodenII {
 //        System.out.print("Gegner wurde erstellt!");
 //    }
 
-
     public static void erstelleGegner(String name, int lebenspunkte) {
         String gegnerName = name;
         int gegnerLeben = lebenspunkte;
         System.out.println("Gegner wurde erstellt " + gegnerName + " LP: " + gegnerLeben);
     }
-
 }

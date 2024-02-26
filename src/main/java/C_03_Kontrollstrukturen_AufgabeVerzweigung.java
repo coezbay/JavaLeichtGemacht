@@ -1,10 +1,7 @@
-
 import java.util.Scanner;
 
 public class C_03_Kontrollstrukturen_AufgabeVerzweigung {
-
     public static void main(String[] args) {
-        // Dingo Dongo
 
         // Kontrollstrukturen steuern den Programmablaufplan
 
@@ -27,7 +24,5 @@ public class C_03_Kontrollstrukturen_AufgabeVerzweigung {
         } else if (userEingabeBundeslaender == 30) {
             System.out.println("Das ist falsch!");
         }
-
     }
-
 }

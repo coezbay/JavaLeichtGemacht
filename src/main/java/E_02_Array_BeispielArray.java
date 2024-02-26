@@ -1,9 +1,7 @@
 import java.util.Scanner;
 
 public class E_02_Array_BeispielArray {
-
     public static void main(String[] args) {
-        // Dingo Dongo
 
         // Array Deklaration
         // Datentyp [] Name = new Datentyp[Anzahl];
@@ -18,11 +16,7 @@ public class E_02_Array_BeispielArray {
         for (int i = 0; i < lottoZahlen.length; i++) {
             System.out.println("Dies ist eine Zahl, die Du eingetippt hast: \n" + lottoZahlen[i]);
         }
-
-
         // Merke: Index = Anzahl der Elemente - 1
         // index hier ist: 0...5
-
     }
-
 }

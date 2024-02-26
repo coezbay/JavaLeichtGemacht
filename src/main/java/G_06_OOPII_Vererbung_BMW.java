@@ -1,4 +1,3 @@
-
 public class G_06_OOPII_Vererbung_BMW extends G_05_OOPII_Vererbung_Auto {
 
     boolean xDrive;

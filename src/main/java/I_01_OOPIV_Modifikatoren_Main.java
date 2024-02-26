@@ -1,7 +1,5 @@
 public class I_01_OOPIV_Modifikatoren_Main {
-
     public static void main(String[] args) {
-        // Dingo Dongo
 
 //| Zugriffsmodifikatoren:
 //|                    | public | protected | (package-private) | private |
@@ -38,6 +36,5 @@ public class I_01_OOPIV_Modifikatoren_Main {
 //        System.out.println(peter.getPasswort());
 
         peter.setPasswort("1234");
-
     }
 }

@@ -1,8 +1,5 @@
-
 public class C_06_Kontrollstrukturen_VerzweigungSwitch {
-
     public static void main(String[] args) {
-        // Dingo Dongo
 
         // Kontrollstrukturen steuern den Programmablaufplan
 
@@ -26,5 +23,4 @@ public class C_06_Kontrollstrukturen_VerzweigungSwitch {
             break;
         }
     }
-
 }

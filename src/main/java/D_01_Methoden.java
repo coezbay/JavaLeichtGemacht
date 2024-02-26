@@ -1,8 +1,5 @@
-
 public class D_01_Methoden {
-
     public static void main(String[] args) {
-        // Dingo Dongo
 
 //<Modifikator Rückgabedatentyp Methodenname ( Datentyp Parameter1, Datentyp Parameter2 )>
 // Ein Modifikator gibt den Sichtbereich der Methode an, es gibt public, private und protected
@@ -25,7 +22,5 @@ public class D_01_Methoden {
 
         summe = a + b;
         System.out.print(summe);
-
     }
-
 }

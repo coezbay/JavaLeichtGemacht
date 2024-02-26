@@ -14,9 +14,7 @@ Die Schleife wird beendet, sobald keine Schokolade mehr vorhanden ist (die Bedin
 import java.util.Scanner;
 
 public class C_09_KontrollstrukturenUnterschiedForWhile {
-
     public static void main(String[] args) {
-        // Dingo Dongo
 
         // for(Anfangswert; Abbruchbedingung; Zähler){
         //      }
@@ -31,7 +29,6 @@ public class C_09_KontrollstrukturenUnterschiedForWhile {
         Scanner scan = new Scanner(System.in);
         System.out.println("Drücke 1 für Schwierigkeitsgrad leicht \nDrücke 2 für Schwierigkeitsgrad Mittel");
 
-
         int userEingabe = scan.nextInt();
         int anzahlGegner = 0;
 
@@ -45,7 +42,5 @@ public class C_09_KontrollstrukturenUnterschiedForWhile {
             System.out.println("Gegner erstellt!");
             anzahlGegner--;
         }
-
     }
-
 }

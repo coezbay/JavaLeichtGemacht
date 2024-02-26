@@ -19,5 +19,3 @@ public class H_03_OOPIII_Assoziation_Mainboard {
     // Methoden
 
 }
-
-

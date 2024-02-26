@@ -15,5 +15,4 @@ public interface K_02_OOPV_Interface_ITelefon {
     public abstract boolean esKlingelt();
 
     public abstract boolean anrufen();
-
 }

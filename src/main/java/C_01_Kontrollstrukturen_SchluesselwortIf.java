@@ -1,8 +1,5 @@
-
 public class C_01_Kontrollstrukturen_SchluesselwortIf {
-
     public static void main(String[] args) {
-        // Dingo Dongo
 
         // Kontrollstrukturen steuern den Programmablaufplan
 
@@ -23,7 +20,6 @@ public class C_01_Kontrollstrukturen_SchluesselwortIf {
             System.out.println("Spiel verloren");
         }
 
-
         boolean gegnerHit = false;
         int highscore = 0;
 
@@ -34,7 +30,5 @@ public class C_01_Kontrollstrukturen_SchluesselwortIf {
         } else {
             System.out.println("Daneben!");
         }
-
     }
-
 }

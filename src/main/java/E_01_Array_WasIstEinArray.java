@@ -1,8 +1,5 @@
-
 public class E_01_Array_WasIstEinArray {
-
     public static void main(String[] args) {
-        // Dingo Dongo
 
         /*
         Ein Array in der Programmierung ist eine Sammlung von Elementen, die alle denselben Datentyp haben und in einer festgelegten Reihenfolge gespeichert sind. Jedes Element in einem Array hat einen Index, der seine Position in der Sammlung angibt. Diese Indizes beginnen in den meisten Programmiersprachen, einschließlich Java, bei 0.
@@ -24,8 +21,7 @@ public class E_01_Array_WasIstEinArray {
         int[] meineZahlen = {10, 20, 30, 40, 50};
 
         Hier ist meineZahlen ein Array von Integer-Werten, und es enthält 5 Elemente. Der Wert 10 kann über meineZahlen[0] abgerufen werden, 20 über meineZahlen[1], und so weiter.
-
-         */
+        */
 
         // Veriable Deklaration
         // Datentyp Name = Wert;
@@ -46,5 +42,4 @@ public class E_01_Array_WasIstEinArray {
         String[] personA = {"Peter", "Müller", "35"};
         System.out.println("Name: " + personA[0]);
     }
-
 }

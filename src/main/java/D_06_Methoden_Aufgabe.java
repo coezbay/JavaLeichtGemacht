@@ -1,8 +1,5 @@
-
 public class D_06_Methoden_Aufgabe {
-
     public static void main(String[] args) {
-        // Dingo Dongo
 
         /*
          * Aufgabe:
@@ -22,7 +19,6 @@ public class D_06_Methoden_Aufgabe {
 
         double ergebnis = produkt(a, b);
         System.out.println("Der Wert aus der Methode produkt() ist: " + ergebnis);
-
     }
 
     public static double produkt(double a, double b) {
@@ -30,5 +26,4 @@ public class D_06_Methoden_Aufgabe {
 
         return ergebnis;
     }
-
 }

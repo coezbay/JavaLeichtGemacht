@@ -1,4 +1,3 @@
-
 public abstract class J_02_OOPV_AbstrakteKlasse_Tier {
 
     // Eigenschaften / Attribute

@@ -1,8 +1,5 @@
-
 public class C_02_Kontrollstrukturen_VerzweigungIfElse {
-
     public static void main(String[] args) {
-        // Dingo Dongo
 
         // Kontrollstrukturen steuern den Programmablaufplan
 
@@ -20,7 +17,6 @@ public class C_02_Kontrollstrukturen_VerzweigungIfElse {
             System.out.println("Zahl unbekannt!");
         }
 
-
         int score = 6000;
         int lebenPlayer = 3;
 
@@ -33,7 +29,5 @@ public class C_02_Kontrollstrukturen_VerzweigungIfElse {
             lebenPlayer += 1;
             System.out.println("Deine Leben betragen: " + lebenPlayer);
         }
-
     }
-
 }

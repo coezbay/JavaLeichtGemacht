@@ -1,8 +1,5 @@
-
 public class D_03_Methoden_Return {
-
     public static void main(String[] args) {
-        // Dingo Dongo
 
         //<Modifikator Rückgabedatentyp Methodenname ( Datentyp Parameter1, Datentyp Parameter2 )>
         // Merke: Eine Methode erledigt eine bestimmte Aufgabe

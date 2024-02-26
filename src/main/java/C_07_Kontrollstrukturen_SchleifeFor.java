@@ -1,7 +1,5 @@
 public class C_07_Kontrollstrukturen_SchleifeFor {
-
     public static void main(String[] args) {
-        // Dingo Dongo
 
         // Kontrollstrukturen steuern den Programmablaufplan
 

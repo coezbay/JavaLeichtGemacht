@@ -25,6 +25,7 @@
 */
 
 import java.util.Scanner;
+
 public class B_06_InputOutput_TestII {
     public static void main(String[] args) {
 

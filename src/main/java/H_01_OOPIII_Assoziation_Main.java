@@ -1,5 +1,4 @@
 public class H_01_OOPIII_Assoziation_Main {
-
     public static void main(String[] args) {
 
 //        H_02_OOPIII_Assoziation_Computer cp1 = new H_02_OOPIII_Assoziation_Computer();

@@ -1,5 +1,4 @@
 public class I_02_OOPIV_Modifikatoren_Held {
-
     // Eigenschaften / Attribute
     public String name;
     private int lebenspunkte;

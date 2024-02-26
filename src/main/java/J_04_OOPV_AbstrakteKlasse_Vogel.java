@@ -1,4 +1,3 @@
-
 public class J_04_OOPV_AbstrakteKlasse_Vogel extends J_02_OOPV_AbstrakteKlasse_Tier {
 
     @Override

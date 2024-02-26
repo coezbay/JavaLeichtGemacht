@@ -17,5 +17,4 @@ public class F_04_OOPI_KlassenUndObjekte_Laptop {
 
         System.out.println(" Ram: " + this.ram + " Preis: " + this.preis + " Marke " + this.marke);
     }
-
 }

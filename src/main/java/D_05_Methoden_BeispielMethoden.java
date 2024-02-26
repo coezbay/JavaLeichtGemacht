@@ -1,6 +1,5 @@
 public class D_05_Methoden_BeispielMethoden {
     public static void main(String[] args) {
-        // Dingo Dongo
 
         // Merke: Eine Methode erledigt eine bestimmte Aufgabe
 

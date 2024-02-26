@@ -3,7 +3,6 @@ import java.awt.*;
 import java.awt.geom.*;
 
 public class Z_02_KomplexesPferdPiktogramm extends JPanel {
-
     public Z_02_KomplexesPferdPiktogramm() {
         setPreferredSize(new Dimension(300, 300));
     }

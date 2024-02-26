@@ -31,4 +31,3 @@ public class Z_03_NumberGuessing {
         scanner.close();
     }
 }
-

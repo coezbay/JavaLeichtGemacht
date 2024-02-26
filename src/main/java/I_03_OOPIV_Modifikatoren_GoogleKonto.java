@@ -6,7 +6,6 @@ public class I_03_OOPIV_Modifikatoren_GoogleKonto {
     private String benutzerName;
     private String passwort;
 
-
     // Konstruktor
     public I_03_OOPIV_Modifikatoren_GoogleKonto(String benutzerName, String passwort) {
         this.benutzerName = benutzerName;

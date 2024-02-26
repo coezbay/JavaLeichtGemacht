@@ -1,7 +1,5 @@
 public class C_08_Kontrollstrukturen_SchleifeWhile {
-
     public static void main(String[] args) {
-        // Dingo Dongo
 
         // Kontrollstrukturen steuern den Programmablaufplan
 
@@ -16,6 +14,7 @@ public class C_08_Kontrollstrukturen_SchleifeWhile {
          *
          * Merke: Bedingung kann entweder true = wahr oder false = nicht wahr sein.
          */
+
         int count = 1;
 //        while(count != 6){ // true
 //            System.out.println("Ich bin: " + count);
@@ -29,9 +28,7 @@ public class C_08_Kontrollstrukturen_SchleifeWhile {
             }
             count++; // Zähler
         }
-
     }
-
 }
 
 

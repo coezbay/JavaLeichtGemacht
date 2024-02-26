@@ -1,8 +1,5 @@
-
 public class D_04_Methoden_ReturnII {
-
     public static void main(String[] args) {
-        // Dingo Dongo
 
         //<Modifikator Rückgabedatentyp Methodenname ( Datentyp Parameter1, Datentyp Parameter2 )>
         // Merke: Eine Methode erledigt eine bestimmte Aufgabe
@@ -23,5 +20,4 @@ public class D_04_Methoden_ReturnII {
 
         return summe;
     }
-
 }

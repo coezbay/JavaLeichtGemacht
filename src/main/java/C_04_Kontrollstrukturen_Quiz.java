@@ -1,9 +1,7 @@
 import java.util.Scanner;
 
 public class C_04_Kontrollstrukturen_Quiz {
-
     public static void main(String[] args) {
-        // Dingo Dongo
 
         // Kontrollstrukturen steuern den Programmablaufplan
 
@@ -23,7 +21,5 @@ public class C_04_Kontrollstrukturen_Quiz {
         } else if (userEingabeBundeslaender <= 15) {
             System.out.println("Das ist leider zu wenig. Deutschland hat " + korrekteAnzahlBundeslaender + " Bundesländer und nicht " + userEingabeBundeslaender + ".");
         }
-
     }
-
 }

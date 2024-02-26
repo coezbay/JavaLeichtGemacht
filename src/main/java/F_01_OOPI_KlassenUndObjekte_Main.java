@@ -1,11 +1,10 @@
 public class F_01_OOPI_KlassenUndObjekte_Main {
-
     public static void main(String[] args) {
 
         int zahl = 4;
         System.out.println(zahl);
 
-        // Datentyp variableNamen = new Konstruktor();
+//        Datentyp variableNamen = new Konstruktor();
 //        F_02_OOPI_KlassenUndObjekte_Auto bmw = new F_02_OOPI_KlassenUndObjekte_Auto();
 //        System.out.println(bmw);
 //        bmw.preis = 7000;

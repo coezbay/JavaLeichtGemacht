@@ -1,4 +1,3 @@
-
 public class F_02_OOPI_KlassenUndObjekte_Auto {
 
     // Eigenschaften / Attribute
