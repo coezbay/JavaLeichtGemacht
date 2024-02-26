@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-public class Z_TicTacToe {
+public class Z_05_TicTacToe {
     private final char[][] board;
     private char currentPlayer;
 
-    public Z_TicTacToe() {
+    public Z_05_TicTacToe() {
         board = new char[3][3];
         currentPlayer = 'X';
         initializeBoard();
@@ -85,7 +85,7 @@ public class Z_TicTacToe {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        Z_TicTacToe game = new Z_TicTacToe();
+        Z_05_TicTacToe game = new Z_05_TicTacToe();
 
         System.out.println("Willkommen beim Tic-Tac-Toe-Spiel!");
         game.printBoard();

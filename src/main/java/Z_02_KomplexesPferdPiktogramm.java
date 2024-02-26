@@ -2,9 +2,9 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.geom.*;
 
-public class Z_KomplexesPferdPiktogramm extends JPanel {
+public class Z_02_KomplexesPferdPiktogramm extends JPanel {
 
-    public Z_KomplexesPferdPiktogramm() {
+    public Z_02_KomplexesPferdPiktogramm() {
         setPreferredSize(new Dimension(300, 300));
     }
 
@@ -41,7 +41,7 @@ public class Z_KomplexesPferdPiktogramm extends JPanel {
         SwingUtilities.invokeLater(() -> {
             JFrame frame = new JFrame("Komplexes Pferd Piktogramm");
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-            frame.add(new Z_KomplexesPferdPiktogramm());
+            frame.add(new Z_02_KomplexesPferdPiktogramm());
             frame.pack();
             frame.setLocationRelativeTo(null);
             frame.setVisible(true);

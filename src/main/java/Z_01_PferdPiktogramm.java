@@ -1,8 +1,8 @@
 import javax.swing.*;
 import java.awt.*;
 
-public class Z_PferdPiktogramm extends JPanel {
-    public Z_PferdPiktogramm() {
+public class Z_01_PferdPiktogramm extends JPanel {
+    public Z_01_PferdPiktogramm() {
         // Setze die bevorzugte Größe für das Panel, damit es genug Platz zum Zeichnen des Piktogramms gibt.
         setPreferredSize(new Dimension(200, 200));
     }
@@ -37,7 +37,7 @@ public class Z_PferdPiktogramm extends JPanel {
         SwingUtilities.invokeLater(() -> {
             JFrame frame = new JFrame("Pferd Piktogramm");
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-            frame.add(new Z_PferdPiktogramm());
+            frame.add(new Z_01_PferdPiktogramm());
             frame.pack();
             frame.setLocationRelativeTo(null);
             frame.setVisible(true);

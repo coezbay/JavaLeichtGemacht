@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Z_JavaQuiz {
+public class Z_04_JavaQuiz {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
