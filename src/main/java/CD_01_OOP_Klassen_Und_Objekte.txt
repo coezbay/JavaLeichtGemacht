@@ -3,7 +3,7 @@ Diese Objekte besitzen bestimmte Eigenschaften und Fähigkeiten, die in zwei Hau
 
 1. Instanzvariablen (Eigenschaften):
 Diese repräsentieren den Zustand eines Objekts, d.h. die Daten, die jedes Objekt eines bestimmten Typs individuell speichert.
-Instanzvariablen sind essentiell, um die Einzigartigkeit jedes Objekts zu gewährleisten, da sie unterschiedliche Werte für verschiedene Objekte desselben Typs aufweisen können.
+Instanzvariablen sind essenziell, um die Einzigartigkeit jedes Objekts zu gewährleisten, da sie unterschiedliche Werte für verschiedene Objekte desselben Typs aufweisen können.
 
 2. Methoden (Fähigkeiten):
 Methoden definieren das Verhalten der Objekte, also was sie tun können.
