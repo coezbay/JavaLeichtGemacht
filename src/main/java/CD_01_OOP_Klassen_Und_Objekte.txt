@@ -23,6 +23,7 @@ Die Testklasse, die oft eine `main`-Methode enthält, dient dazu, die Funktional
 Sie ist essenziell für das Ausführen von Experimenten und Tests mit dem neuen Objekttyp, indem sie Zugriff auf dessen Methoden und Variablen ermöglicht.
 
 Eine Analogie zur Veranschaulichung von Klassen und Objekten könnte das Adressbuch in einem Telefon sein.
+(Ich habe hierzu ein Package "com.javaleichtgemacht.adressbuch" erstellt. Dieses Package wird im Laufe der Zeit erweitert.)
 Jeder Kontakt (Objekt) im Adressbuch (Klasse) hat dieselben Felder (Instanzvariablen), wie Name, Telefonnummer und E-Mail-Adresse, die individuelle Werte für jeden Kontakt enthalten.
 Die Aktionen, die mit einem Kontakt durchgeführt werden können, wie das Auslesen oder Ändern des Namens, entsprechen den Methoden der Klasse.
 
