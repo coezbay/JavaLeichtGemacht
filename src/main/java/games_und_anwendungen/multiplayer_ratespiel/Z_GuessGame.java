@@ -3,53 +3,52 @@ package games_und_anwendungen.multiplayer_ratespiel;
 import java.util.Scanner;
 
 public class Z_GuessGame {
-    Z_Player p1;
-    Z_Player p2;
-    Z_Player p3;
-    Scanner scanner = new Scanner(System.in); // Scanner-Objekt für die Eingabeinitialisierung
+    private Z_Player[] players;
+    private int targetNumber;
+    private int maxAttempts;
+    private int currentRound;
+
+    public Z_GuessGame() {
+        players = new Z_Player[3];
+        for (int i = 0; i < 3; i++) {
+            players[i] = new Z_Player("Player " + (i + 1));
+        }
+        this.targetNumber = (int) (Math.random() * 100) + 1;
+        this.maxAttempts = 10;
+        this.currentRound = 0;
+    }
 
     public void startGame() {
-        p1 = new Z_Player();
-        p2 = new Z_Player();
-        p3 = new Z_Player();
+        System.out.println("Welcome to the Guessing Game!");
+        System.out.println("I'm thinking of a number between 1 and " + targetNumber);
 
-        int targetNumber = (int) (Math.random() * 10);
-        System.out.println("I'm thinking of a number between 0 and 9 ...");
+        Scanner scanner = new Scanner(System.in); // Scanner-Objekt für die Eingabeinitialisierung
 
         while (true) {
-            System.out.println("Number to guess is " + targetNumber);
+            currentRound++;
+            System.out.println("\nRound " + currentRound + ":");
 
-            p1.guess();
-            p2.guess();
-            p3.guess();
-
-            int guessp1 = p1.number;
-            System.out.println("Player one guessed " + guessp1);
-
-            int guessp2 = p2.number;
-            System.out.println("Player two guessed " + guessp2);
-
-            int guessp3 = p3.number;
-            System.out.println("Player three guessed " + guessp3);
-
-            if (guessp1 == targetNumber || guessp2 == targetNumber || guessp3 == targetNumber) {
-                System.out.println("We have a winner!");
-                if (guessp1 == targetNumber) {
-                    System.out.println("Player one got it right!");
+            for (Z_Player player : players) {
+                int attempt = player.makeGuess(scanner, targetNumber);
+                if (attempt == targetNumber) {
+                    System.out.println(player.getName() + " guessed the correct number! Congratulations!");
+                    printGameStats();
+                    return;
                 }
-                if (guessp2 == targetNumber) {
-                    System.out.println("Player two got it right!");
-                }
-                if (guessp3 == targetNumber) {
-                    System.out.println("Player three got it right!");
-                }
-                System.out.println("Game is over.");
-                break;
-            } else {
-                System.out.println("No one guessed correctly. Players will have to try again.");
-                System.out.println("Press Enter to continue...");
-                scanner.nextLine(); // Wartet auf Eingabe, bevor die Schleife fortgesetzt wird
-            } // Ende von if/else
-        } // Ende der while Schleife
-    } // Ende der startGame-Methode
-} // Ende von Class
+            }
+
+            if (currentRound == maxAttempts) {
+                System.out.println("Sorry, nobody guessed the correct number. The correct number was: " + targetNumber);
+                printGameStats();
+                return;
+            }
+        }
+    }
+
+    private void printGameStats() {
+        System.out.println("\nGame Over! Here are the game statistics:");
+        for (Z_Player player : players) {
+            System.out.println(player.getName() + " guessed " + player.getAttempts() + " times");
+        }
+    }
+}
