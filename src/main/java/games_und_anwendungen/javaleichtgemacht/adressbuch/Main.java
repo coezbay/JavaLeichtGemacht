@@ -1,4 +1,4 @@
-package com.javaleichtgemacht.adressbuch;
+package games_und_anwendungen.javaleichtgemacht.adressbuch;
 
 public class Main {
     public static void main(String[] args) {

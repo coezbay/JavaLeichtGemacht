@@ -1,4 +1,4 @@
-package com.example.javaleichtgemacht;
+package games_und_anwendungen.example.javaleichtgemacht;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

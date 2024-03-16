@@ -1,4 +1,4 @@
-package com.javaleichtgemacht.adressbuch;
+package games_und_anwendungen.javaleichtgemacht.adressbuch;
 
 import java.util.ArrayList;
 import java.util.List;
