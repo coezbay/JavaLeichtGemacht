@@ -53,7 +53,7 @@ https://ceosbay.com (Ist pausiert, da ich meine Ressourcen anderweitig benötige
 
 ## Lizenz
 
-Dieses Projekt ist unter der [MIT-Lizenz](https://github.com/coezbay/JavaLeichtGemacht/blob/master/LICENSE/LICENSE.txt) veröffentlicht.
+Dieses Projekt ist unter der [MIT-Lizenz](LICENSE.txt) veröffentlicht.
 
 ## Abschlussgedanken
 
