@@ -9,14 +9,6 @@
 # !.mvn/wrapper/maven-wrapper.properties
 # !.mvn/wrapper/MavenWrapperDownloader.java
 
-### Angular ###
-# Dependencies
-/todo-app/node_modules/
-
-# Compiled output
-/todo-app/dist/
-/todo-app/out-tsc/
-
 # Logs
 /todo-app/*.log
 
@@ -37,8 +29,6 @@
 *.iws
 *.iml
 *.ipr
-# Uncomment if you wish to ignore the idea folder for Angular as well
-# /todo-app/.idea/
 
 ### Eclipse ###
 .apt_generated
